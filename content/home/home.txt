@@ -6,7 +6,7 @@ Hellotext:
 
 #Hello
 
-My name's Greg. I'm a designer &amp; illustrator. I've been building websites for more than 12 years. I'm the Creative Director at a small, friendly (link: http://www.buildingonline.net target: blank text: agecny) in Southern California. I solve problems for my clients, and I design and build interfaces for screens of all sizes. Thanks for stopping by.
+My name's Greg. I'm a designer &amp; illustrator. I've been building websites for more than 12 years. I'm the Creative Director at a small, friendly (link: http://www.buildingonline.net target: blank text: agency) in Southern California. I solve problems for my clients, and I design and build interfaces for screens of all sizes. Thanks for stopping by.
 
 (link: /info text: *More info &amp; Colophon*)
 
