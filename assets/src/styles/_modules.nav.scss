@@ -1,0 +1,127 @@
+// ---------------------- Main Nav
+
+nav {
+  font-family: $nav-font;
+  font-size: $nav-font-size;
+  line-height: $nav-line-height;
+  font-weight: normal;
+  font-weight: $navmain-font-weight;
+  letter-spacing: $navmain-letter-spacing;
+}
+
+/*
+display:block on the nav holder (.navmain), 
+and all the interior elements (divs & uls) prevents ghost space 
+under the elements, but we need to adjust display settings 
+of the uls & divs based on content 
+(see _modules.nav-main)
+
+But if we want to center the menu:
+
+.navmain { text-align: center; }
+.navmain ul {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+*/
+
+
+
+// the nav element
+.navmain {
+	display: block;
+	text-align: $navmain-align;
+}
+
+// the top-level ul
+.navmain ul { // and any child ul 
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.navmain ul li {
+	display: inline-block; 
+	float: left; // the float keeps them flush
+}
+.navmain ul li a {
+	display: block; 
+	background-color: $navmain-background; 
+	color: $navmain-color; 
+	padding: $navmain-button-pad; 
+	text-decoration: none; 
+	white-space: nowrap;
+	text-transform: $navmain-text-transform;
+
+	&:visited {
+		background-color: $navmain-background;
+		color: $navmain-color;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: $navmain-background-hover;
+		color: $navmain-color-hover; 
+	}
+
+}
+
+// ----------- the mobile nav trigger
+
+.navmobile-trigger {
+	@extend .cf;
+	display: none;
+}
+
+// ----------- /the mobile nav trigger
+
+// ---------------- Mobile
+
+/*
+This is a simple, top-down mobile nav
+Credit: Nick Salloum
+http://callmenick.com/2013/12/21/simple-responsive-navigation-menu/
+*/
+
+.navmobile {
+	font-size: $navmobile-font-size;
+}
+
+.navmobile ul {
+	display: none;
+	list-style-type: none;
+	/*
+	These were in the original, but I've removed them:
+	position:absolute;left:0;right:0;margin-left:auto;margin-right:auto;
+	*/
+	text-align: $navmobile-text-align;
+	background-color: $navmobile-background; 
+}
+
+.navmobile li {
+	display: block;
+	&:not(:last-child) {
+		border-bottom: $navmobile-border;
+	}
+}
+
+.navmobile a {
+	display: block;
+	color: $navmobile-link-color;
+	padding: $navmobile-link-padding; 
+	background-color: $navmobile-link-background; 
+	text-decoration: none;
+	text-transform: $navmobile-text-transform;
+	&:visited {
+		color: $navmobile-link-color;
+		background-color: $navmobile-link-background;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $navmobile-link-color-hover;
+		background-color: $navmobile-link-background-hover;
+	}
+}
+

@@ -1,0 +1,26 @@
+# root level
+Thumbs.db
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.sass-cache
+*.settings
+*.codekit-cache
+config.codekit
+
+# assets not in use
+/assets/avatars
+/assets/fonts
+/assets/images/photobox
+/assets/images/slideshow
+/assets/js/jquery.mosaicflow.min.js
+/assets/js/jquery.photobox.min.js
+/assets/src/featherlight
+/assets/src/featherlight-1.4.0
+
+# not the auto-generated thumbs
+# /thumbs/*
+
+# inactive content
+/content/x-*
+/content/resume

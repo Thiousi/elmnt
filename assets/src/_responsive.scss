@@ -1,0 +1,248 @@
+
+/* any elements that we're specifically hiding until mobile */
+
+/*
+.blog__meta--mobile,
+.logo--mobile { 
+  display: none; 
+}
+*/
+
+// "mobile" logo is now default
+.blog__meta--mobile {
+  display: none; 
+}
+
+/*
+Control the font sizes here, first, for ease of access, 
+then add the rest of the responsive styles below
+$break-lg: 1200px;
+$break-md: 992px;
+$break-sm: 768px;
+$break-xs: 500px;
+*/
+
+@include breakpoint(lg) {
+  html {
+    font-size: $font-size-lg;
+  }
+}
+@include breakpoint(md) {
+  html {
+    font-size: $font-size-md;
+  }
+}
+@include breakpoint(sm) {
+  html {
+    font-size: $font-size-sm;
+  }
+  h1,.h1 { font-size: $h1-mobile; }
+  h2,.h2 { font-size: $h2-mobile; }
+  h3,.h3 { font-size: $h3-mobile; }
+  h4,.h4 { font-size: $h4-mobile; }
+  h5,.h5 { font-size: $h5-mobile; }
+  h6,.h6 { font-size: $h6-mobile; }
+  .container--blog h1 {
+    font-size: $h2;
+  }
+}
+
+@include breakpoint(lg) {
+}
+
+@include breakpoint(md) {
+
+  // ----------- portfolio display grids - convert four to three
+  .grid .counter .four {
+    width: 32.6666666667%; 
+  }
+  // reset the 4th appearances
+  .grid .counter .four:nth-child(4n+4) {  
+    margin-right: 1%;
+  }
+  // make it simulate the .three settings
+  .grid .counter .four:nth-child(3n+3) {  
+    margin-right: 0;
+  }
+  // ----------- /portfolio display grids - convert four to three
+
+  // ----------- portfolio display grids - convert three to two
+  .grid .counter .three {
+    width: 49.5%; 
+  }
+  // reset the 3rd appearances
+  .grid .counter .three:nth-child(3n+3) {  
+    margin-right: 1%;
+  }
+  // make it simulate the .two settings
+  .grid .counter .three:nth-child(2n+2) {  
+    margin-right: 0;
+  }
+  // ----------- /portfolio display grids - convert three to two
+
+}
+
+@include breakpoint(sm) {
+
+  // ----------- portfolio display grids - convert three to one
+
+  .grid .counter .three {
+    width: 100%;
+  }
+  // single column
+  .grid .counter .three {  
+    margin-right: 0;
+  }
+
+  // ----------- portfolio display grids - /convert three to one
+
+  // ----------- portfolio display grids - convert two to one
+
+  .grid .counter .two {
+    width: 100%;
+  }
+  // single column
+  .grid .counter .two {  
+    margin-right: 0;
+  }
+
+  // ----------- portfolio display grids - /convert two to one
+
+
+}
+
+@include breakpoint(xs) {
+  
+  // containers
+  .container { 
+    padding: $container-pad-mobile; 
+  }
+
+  // ----------- portfolio display grids - four
+
+  .grid .four {
+    width: 100%;
+  }
+  // single column
+  .grid .counter .four {  
+    margin-right: 0;
+  }
+
+  // ----------- /portfolio display grids - four
+
+  .grid--logo {
+    margin-top: ($grid-top-bottom-margin-mobile - 1rem) !important;
+  }
+  .grid--logo,
+  .grid--sublogo {
+    margin-top: 0 !important;
+    margin-bottom: $grid-top-bottom-margin-mobile !important;
+  }
+
+}
+
+/* Idea:
+Responsive Line Break
+<h1>
+  Responsive Line Break
+  <br class="md-show">
+  To Control Wrapping
+</h1>
+*/
+
+.display-none { display: none !important }
+
+@media all and (max-width: 800px){}
+
+@media all and (max-width: 760px){
+
+  // ----------- navigation
+  
+  .header { 
+    margin-bottom: 0; 
+  }
+
+  // the mobile nav stuff
+  .navmobile-trigger { 
+    display: block; 
+    width: 100%;
+  }
+  // the icon
+  .navmobile-trigger .fa {
+    padding: 1rem;
+    color: white;
+  }
+  .navmain { display: none; }
+  .navmobile { display: block; }
+
+  // remove the nav container padding
+  .container--nav { 
+    padding: 0;
+  }
+  /*
+  And then adjust the logo styles so it stays the same
+  by adding the same margin as the .nav--trigger padding
+  (margin instead of padding because it messes up the SVG size)
+  */
+  /*
+  .logo--header {
+    margin: 1rem;
+  }
+  */
+
+  // ----------- /navigation
+
+  // ----------- hide desktop logos, show mobile logo
+
+  .logo--mobile { display: inline-block; }
+  .grid--logo,
+  .grid--sublogo { display: none; }
+
+  // ----------- /hide desktop logos, show mobile logo
+
+}
+
+// Target the single column width. Its max is 720px, so that's our breakpoint
+@media all and (max-width: 720px){
+
+  // reset the single column width
+  .single-col { 
+    width: 100%;
+    max-width: 100%; 
+  }
+
+}
+
+@media all and (max-width: 700px){
+
+  // ----------- multi-column grids
+
+  [class*='col-'] {
+    float: none; 
+    width: 100%; 
+    margin-right: 0;  
+  }
+
+  // ----------- /multi-column grids
+
+  // ----------- now anything we've hidden until the columns switch
+  // hide both the left column div (it's empty now) and the meta content inside of it
+  .col--blog-meta,
+  .blog-excerpt__meta { display: none; }
+  .blog-excerpt__meta--mobile { display: block; }
+  
+  // ----------- base.type
+  .read-more {
+    margin: $p-margin;
+  }
+  
+}
+
+@media all and (max-width: 600px){
+
+  // hide the slideshow captions
+  .rslides_container p.caption { display: none; }
+
+}
+
+@media all and (max-width: 400px){}

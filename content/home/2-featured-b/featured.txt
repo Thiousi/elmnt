@@ -1,0 +1,15 @@
+Featured:
+
+##Featured Project
+
+<p class="copy--featured">Illustration</p>
+
+Here's a quick glimpse at a really fun illustration project. I'm working on my first children's book. I'll give you a hint: it has gorillas. Lots of animals, actually. But definitely gorillas.
+
+This is a just a small peek. More to come soon.
+
+(link: /illustration text: *More Illustration projects* class: morelink)
+
+----
+
+FeaturedImg: (image: grillaz-72-1200.jpg class: fit caption: © 2015 Peeking Press™ All Rights Reserved)

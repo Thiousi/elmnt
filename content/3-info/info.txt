@@ -1,0 +1,41 @@
+Title: Info
+
+----
+
+Menu: Info
+
+----
+
+(image: /content/home/elmnt-avatar.png)
+
+----
+
+Text:
+
+My name's Greg. I'm a designer &amp; illustrator. I'm the Creative Director at a small, friendly (link: http://www.buildingonline.net text: agency) in Southern California. I solve problems for my clients, and I design and build interfaces for screens of all sizes.
+
+I have a bachelor's degree in journalism from SDSU. I studied illustration and design at The Art Institute of Southern California, now called (link: http://www.lcad.edu text: The Laguna College of Art &amp; Design). While in art school, I bought a book called *Teach Yourself HTML 4 in 24 Hours,* and I joined the wave of designers/illustrators who became self-taught front-end coders.
+
+I've been designing and building websites since tables &amp; transparent GIFs were the standard. I fell in (and then out of) love with Flash, and now I feel fortunate to work in an environment where multi-device constraints are pushing us to focus on things like page weight and simple content readability again.
+
+<!--
+#Extra
+I'm a husband, a father, a surfer, and a (link: http://www.penaddict.com text: pen addict target: _blank). I'm an accomplished oil painter, although I do most of my illustrating these days with a Wacom tablet. I studied improv &amp; sketch comedy writing for a few years at the Groundlings school in Los Angeles, because I thought it would be a fun thing to do (it was).
+
+I'm curating a very trimmed-down portfolio these days. With this iteration of my site, I'm putting more focus on writing about our industry.
+-->
+
+#Colophon
+
+This site was built with (link: https://github.com/elmnt/grom text: Grom target: _blank), a framework I designed as a starting point for client projects. I have (link: http://getkirby.com text: Kirby target: _blank) running the back-end (including Sascha Lack's (link: http://baseblog.sashtown.de text: Baseblog target: _blank) running the blog section (coming soon).
+
+<!--(link: /blog text: blog) section).-->
+<!--I'm using (link: https://typekit.com/ text: Typekit target: _blank) to set the body text in Minion Pro, and the headings in Proxima Nova.-->
+<!--I write all my code in (link: http://www.sublimetext.com text: Sublime Text target: _blank).-->
+
+I manage local development with either (link: http://gulpjs.com text: Gulp target: _blank) or (link: https://incident57.com/codekit/ text: Codekit target: _blank), depending on the project. My favorite deployment tool is (link: http://beanstalkapp.com text: Beanstalk target: _blank). You can find some of my code on (link: https://github.com/elmnt text: Github target: _blank).
+
+I use the (link: https://github.com/buymeasoda/soda-theme text: Soda Theme target: _blank) in Sublime Text 3, with the (link: https://packagecontrol.io/packages/Base16%20Color%20Schemes text: Base​16 Color Schemes target: _blank). I'm partial to base16-atelierdune light &amp; dark, depending on the time of day.
+
+<!-- twitter -->
+<!-- (link: https://github.com/elmnt text: Github target: _blank) -->

@@ -1,0 +1,19 @@
+Title: iDONATEpro
+
+----
+
+Group: design
+
+----
+
+Text:
+
+###iDONATEpro
+
+iDONATEpro is owned &amp; operated by one of my best friends. It's always great to help friends succeed. I also love working with a SaaS company. Software developers live and breathe the agile process: sprint, deploy, learn, improve, repeat.
+
+It's an open opportunity to experiment on a much faster scale &mdash; a great way to boost my skills.
+
+**Role:** *strategy, art direction, design, illustration, development*
+
+(link: http://idonatepro.com text: idonatepro.com target: _blank)

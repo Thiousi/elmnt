@@ -1,0 +1,240 @@
+/* Generic
+------------------------------------------------------- */
+// generic.normalize
+// generic.box-sizing
+
+.panel {
+  @extend .cf;
+  background-color: $color-grey-f3;
+  padding: 1rem;
+}
+
+/* Base
+------------------------------------------------------- */
+
+// base
+// ----------- base.page
+// ----------- base.images
+
+// adjust the figcaption in the portfolio feed
+.fc--projects {
+  margin-bottom: 0 !important;
+}
+
+// ----------- base.links
+
+.read-more a {
+  text-decoration: none;
+}
+
+// ----------- base.type
+
+.copy--featured {
+  //@extend .h3;
+  font-size: 1.5rem;
+  font-style: italic;
+  //color: $site-color-8;
+  //margin-bottom: 1.25rem;
+}
+
+/*
+.brand-color-0 {
+  color: $brand-color-0;
+}
+.em--brand {
+  @extend em;
+  color: $brand-color-0;
+}
+*/
+
+.read-more {
+  margin-bottom: 0;
+}
+
+// blockquote
+// pre/code
+// definition list
+// horizontal rule
+
+/* Modules
+------------------------------------------------------- */
+
+// ----------- modules.buttons 
+// button base styles
+// button states
+// small buttons
+// big buttons
+// alternate color buttons
+
+.project-pagnav .button {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+// ----------- modules.form-hack
+// all variables set in _modules.form-hack
+// ----------- modules.tables
+// modules.headroom
+// ----------- modules.layout (the grid)
+// ----------- modules.nav
+// ----------- modules.nav -> _responsive
+// ----------- modules.responsiveslides
+
+// modules.accordions
+// modules.alerts
+// modules.bg-slideshow
+// modules.breadcrumbs
+
+/* Partials
+------------------------------------------------------- */
+
+// ----------- partials.blog (all styles in that partial)
+
+/* Any Misc Customizations
+------------------------------------------------------- */
+
+// ----------- header / masthead
+
+.logo--header,
+.logo--subheader {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 160px;
+}
+.logo--header {
+  //margin: 2rem auto;
+}
+.logo--subheader {
+  max-width: 100px
+}
+
+.logo--mobile {
+  max-width: 80px;
+  margin: 1rem 0 1rem 1rem;
+  float: left;
+}
+
+// ----------- Footer
+
+.container--footer {
+  @extend .container;
+  background-color: $theme-main-color;
+}
+
+.footer-fa-icons {
+  margin: 0 0 1rem 0;
+}
+
+.footer-fa-icons a {
+  margin-right: 1rem;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+  
+}
+
+footer,
+.copyright,
+.colophon {
+  color: lighten($theme-main-color, $theme-dark-light-amount);
+  font-size: 90%;
+}
+
+footer a,
+.copyright a,
+.colophon a {
+  color: lighten($theme-main-color, $theme-dark-light-amount);
+
+  &:link,
+  &:visited {
+  color: lighten($theme-main-color, $theme-dark-light-amount);
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+  color: white;
+  text-decoration: none;
+  }
+
+}
+
+// ----------- masonry stuff for the projects snippet
+
+/*
+.masonry-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.masonry-item {
+  width: 30%;
+  float: left;
+  margin: 0 3% 0 0;
+  padding: 0;
+}
+.masonry-list .masonry-item:nth-child(3n+3) {
+  margin-right: 0;
+}
+.masonry-item img {
+  display: block;
+  margin-bottom: 30px;
+  padding: 0;
+}
+@media all and (max-width: 800px){
+  .masonry-item {
+    width: 46%;
+  }
+  .masonry-list .masonry-item:nth-child(3n+3) {
+    margin-right: 3%;
+  }
+  .masonry-list .masonry-item:nth-child(2n+2) {
+    margin-right: 0;
+  }
+}
+@media all and (max-width: 400px){
+  .masonry-item {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+}
+*/
+
+// ----------- /masonry stuff for the projects snippet
+
+// BEM example
+/*
+.person {}
+.person__hand {}
+.person__hand--left {}
+.person--female {}
+.person--female__hand {}
+
+<form class="site-search  site-search--full">
+  <input type="text" class="site-search__field">
+  <input type="Submit" value ="Search" class="site-search__button">
+</form>
+*/
+
+/*
+.custom {}
+.custom__header {}
+.custom__body {}
+.custom__img {}
+.custom__list {}
+.custom__list li {}
+.custom__list a {}
+
+.custom--variation {}
+.custom--variation__header {} 
+.custom--variation__body {} 
+// etc
+
+.custom--variation {
+  @extend .custom;
+  // .custom--variation styles
+}
+*/

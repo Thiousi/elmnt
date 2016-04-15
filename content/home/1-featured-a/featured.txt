@@ -1,0 +1,15 @@
+Featured:
+
+##Featured Project
+
+<p class="copy--featured">Design</p>
+
+iDONATEpro is a very robust, multi-featured software platform for fund-raising. My challenge was to help reboot their core message, and re-design their public-facing site to display the superiority of their product.
+
+**Role:** *strategy, art direction, design, illustration, development*
+
+(link: /design text: *More Design projects* class: morelink)
+
+----
+
+FeaturedImg: (image: idp-sample-1200.png link: /designs/idonatepro class: fit caption: © 2015 iDONATEpro, All Rights Reserved)

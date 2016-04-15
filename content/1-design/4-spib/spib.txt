@@ -1,0 +1,20 @@
+Title: SPIB
+
+----
+
+Group: design
+
+----
+
+Text:
+
+###SPIB
+
+This site for the Southern Pine Inspection Bureau includes member subscription, e-commerce, a product locator, and a custom Wordpress theme for the blog section.
+
+**Agency:** *BuildingOnline*
+
+**Role:** *front-end development, Wordpress theme development*
+
+(link: http://www.spib.org text: spib.org target: _blank)
+

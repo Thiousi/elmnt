@@ -1,0 +1,21 @@
+Title: BuildingOnline
+
+----
+
+Group: design
+
+----
+
+Text:
+
+###BuildingOnline
+
+BuildingOnline is a friendly little agency in Southern California where I've been lucky enough to learn and grow with a small team of very dedicated professionals.
+
+This is the most recent reboot of our agency site.
+
+**Agency:** *BuildingOnline*
+
+**Role:** *strategy, art direction, design, development*
+
+(link: http://buildingonline.net text: buildingonline.net target: _blank)

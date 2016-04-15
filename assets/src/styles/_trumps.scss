@@ -1,0 +1,107 @@
+// ----------- Trumps 
+
+/*
+These should be considered hacks, and should be fixed/added to the main kit
+*/
+
+/* Limit the right column width on the blog pages */
+.blog-2-3 { max-width: 720px !important; }
+
+pre {
+	margin-top: 2rem !important;
+	margin-bottom: 2rem !important;
+}
+code {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+// ----------- Helper classes (disabled)
+
+// Text align
+
+/*
+.text--left {
+	text-align: left!important;
+}
+.text--center {
+	text-align: center!important;
+}
+.text--right {
+	text-align: right!important;
+}
+
+// Font weight 
+
+.weight--light {
+	font-weight: 300!important;
+}
+.weight--normal {
+	font-weight: 400!important;
+}
+.weight--semibold {
+	font-weight: 600!important;
+}
+
+// Floats
+
+.pull--right {
+	float: right!important;
+}
+.pull--left {
+	float: left!important;
+}
+.pull--none {
+	float: none!important;
+}
+
+// Push (margin)
+
+.push {
+	margin: 1rem!important;
+}
+.push--top {
+	margin-top: 1rem!important;
+}
+.push--right {
+	margin-right: 1rem!important;
+}
+.push--bottom {
+	margin-bottom: 1rem!important;
+}
+.push--left {
+	margin-left: 1rem!important;
+}
+
+.push-half {
+	margin: 1rem/2!important;
+}
+.push-half--top {
+	margin-top: 1rem/2!important;
+}
+.push-half--right {
+	margin-right: 1rem/2!important;
+}
+.push-half--bottom {
+	margin-bottom: 1rem/2!important;
+}
+.push-half--left {
+	margin-left: 1rem/2!important;
+}
+
+.push-double {
+	margin: 1rem*2!important;
+}
+.push-double--top {
+	margin-top: 1rem*2!important;
+}
+.push-double--right {
+	margin-right: 1rem*2!important;
+}
+.push-double--bottom {
+	margin-bottom: 1rem*2!important;
+}
+.push-double--left {
+	margin-left: 1rem*2!important;
+}
+*/

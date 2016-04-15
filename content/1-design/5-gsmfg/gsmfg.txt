@@ -1,0 +1,19 @@
+Title: GSMfg
+
+----
+
+Group: design
+
+----
+
+Text:
+
+###SPIB
+
+GS Manufacturing is the leading manufacturer of dispensing systems for plural component materials. Their new site has a product catalog with specs, options, detailed photos &amp; videos.
+
+**Agency:** *BuildingOnline*
+
+**Role:** *strategy, design, front-end development*
+
+(link: http://www.gsmfg.com text: gsmfg.com target: _blank)

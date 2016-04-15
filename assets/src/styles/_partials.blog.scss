@@ -1,0 +1,216 @@
+
+// ----------- any leftover Kirby Baseblog styles
+
+/*
+Credit to Sascha Lack for the 'Baseblog' blog engine
+http://baseblog.sashtown.de
+http://sashtown.de/
+@sashtown
+*/
+
+.button--readmore {
+  @extend .button;
+  margin-top: .5rem;
+  margin-bottom: 0;
+}
+
+// ----------- Fluid video ratio via Kirbytext
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: auto;
+  overflow: hidden;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// ----------- Visually hidden [vh]
+
+.vh {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+// ----------- END: any leftover Kirby Baseblog styles
+
+// The rest are my own styles, added on top of the Baseblog engine
+
+// ----------- settings for the main blog home page (feed)
+
+$blog-article-margin: 0;
+$blog-article-padding: 0;
+
+$blog-article-border: 5px solid $color-grey-e;
+
+$blog-article-header-margin: 0 0 1rem 0;
+$blog-article-header-padding: 0;
+$blog-article-header-border: 1px solid $color-grey-e;
+
+$blog-article-footer-margin: 0 auto !important;
+
+article {
+  margin: $blog-article-margin;
+  padding: $blog-article-padding;
+  &:not(:last-child) {
+    border-bottom: $blog-article-border;
+  }
+  @extend .cf;
+}
+
+article header {
+  margin: $blog-article-header-margin;
+  padding: $blog-article-header-padding;
+  //border-bottom: $blog-article-header-border;
+}
+
+article footer {
+  margin: $blog-article-footer-margin;
+}
+
+article > footer .button {
+  float: right;
+  @extend .cf;
+}
+article > footer .button--fa {
+  margin-right: 10px;
+}
+
+// ----------- /settings for the main blog home page (feed)
+
+// remove the top margin from the 1st article > 1st grid
+.grid--blog article:first-of-type .grid:first-of-type {
+  margin-top: 0;
+}
+
+// ----------- settings for the single article pages
+
+.grid--blog .blog__content { width: 100%; }
+
+.grid--blog header,
+.grid--blog .blog__content pre,
+.grid--blog .blog__content h1,
+.grid--blog .blog__content h2,
+.grid--blog .blog__content h3,
+.grid--blog .blog__content h4,
+.grid--blog .blog__content h5,
+.grid--blog .blog__content h6,
+.grid--blog .blog__content p,
+.grid--blog .blog__content ul,
+.grid--blog .blog__content ol,
+.grid--blog .blog__content blockquote,
+.grid--blog .blog__meta-tags,
+.grid--blog footer {
+  width: 100%;
+  max-width: $single-col-max-width !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: left;
+}
+.grid--blog .blog__content figure {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+// ----------- /settings for the single article pages
+
+// ----------- article titles
+
+.blog__title,
+.blog__title--link {
+  @extend .h2;
+}
+
+.blog__title--article {
+  @extend .blog__title !optional;
+  margin-top: 0;
+}
+
+.blog__title--link {
+  @extend .blog__title !optional;
+  //color: black;
+}
+
+.blog__title--link a,
+.blog__title--link a:visited {
+  //color: black;
+}
+/*
+.blog__title--link a:hover,
+.blog__title--link a:focus,
+.blog__title--link a:active {
+  color: darken($theme-link-color, 40%);
+}
+*/
+
+// article subtitle
+
+.blog__subtitle {
+  color: $blog-description-subtitle-color;
+}
+
+.blog__description {
+  font-size: 1.25rem;
+  line-height: 1.5em;
+  font-style: italic;
+  margin-bottom: 1.25rem;
+}
+
+.blog__intro {
+  font-size: 1.25rem;
+  line-height: 1.5em;
+  margin-bottom: 1.25rem;
+}
+
+
+// wrench_pencil.svg blog__dcomm
+
+.blog__dcomm {
+  background: url("/assets/images/icons/wrench_pencil_alt.svg") left 5px no-repeat !important;
+  padding-left: 50px !important;
+}
+.blog__dcomm-on {
+  background: url("/assets/images/icons/wrench_pencil.svg") left 5px no-repeat !important;
+  padding-left: 50px !important;
+}
+
+// ----------- /article titles
+
+// ----------- meta info
+
+.blog__meta-date {
+  color: $color-grey-9;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  font-size: 75%;
+  font-family: $sans;
+  line-height: 1em;
+  font-weight: 600;
+}
+
+.blog__meta-tags li {
+  line-height: 1.25em;
+  display: inline-block;
+  margin-right: .25em;
+  text-transform: lowercase;
+}
+.blog__meta-tags a,
+.blog__meta-tags a:link,
+.blog__meta-tags a:visited,
+.blog__meta-tags a:hover,
+.blog__meta-tags a:active,
+.blog__meta-tags a:focus {
+  text-decoration: none;
+}

@@ -1,0 +1,226 @@
+/* Layout (Grid & Structure)
+------------------------------------------------------- */
+
+.container--base {
+  margin: 0 auto;
+  width: 100%;
+  max-width: $container-max-width;
+  text-align: center;
+  @extend .cf;
+}
+
+.container {
+  @extend .container--base;
+  padding: $container-pad; 
+  background-color: $container-background-color;
+}
+
+// containers with no L/R padding
+.container--full,
+.container--logo,
+.container--nav {
+  @extend .container--base;
+  padding: 0;  
+}
+
+.container--logo {
+  background-color: $navmain-holder-background;
+}
+
+.container--nav { 
+  background-color: $navmain-holder-background; 
+}
+
+// container background colors
+
+//.cbg-1-1 { background-color: $color-grey-f9; }
+//.cbg-1-2 { background-color: $color-grey-f6; }
+//.cbg-1-3 { background-color: $color-grey-f3; }
+
+.cbg-1-1 { background-color: $color-grey-e; }
+.cbg-1-2 { background-color: $color-grey-e; }
+.cbg-1-3 { background-color: $color-grey-e; }
+
+.cbg-2 { background-color: $color-grey-e; }
+.cbg-3 { background-color: $color-grey-d; }
+.cbg-4 { background-color: $color-grey-c; }
+.cbg-5 { background-color: $color-grey-b; }
+.cbg-6 { background-color: $color-grey-a; }
+.cbg-7 { background-color: $color-grey-9; }
+.cbg-8 { background-color: $color-grey-6; }
+.cbg-9 { background-color: $color-grey-3; }
+
+.wrap {
+  margin: 0 auto;
+  max-width: $wrap-max-width; 
+  min-width: $wrap-min-width; 
+  text-align: left;
+  @extend .cf;
+}
+
+// unique containers for the nav elements for better control in mobile modes
+.wrap--nav {
+  @extend .wrap;
+}
+
+// a bigger wrapper for the portfolio pages
+.wrap--portfolio {
+  @extend .wrap;
+  max-width: $wrap-portfolio-max-width;
+}
+
+/* We should be able to eliminate these, but turn them on if needed
+.pad-small { padding: $pad-small; }
+.pad { padding: $pad; }
+.pad-big { padding: $pad-big; }
+*/
+
+/* Multi-Column Grids 
+Inspired by CSS Tricks: 
+https://css-tricks.com/dont-overthink-it-grids/
+------------------------------------------------------- */
+
+$multi-grid-margin: 3%;
+
+[class*='col-'] {
+  float: left; 
+  margin-right: $multi-grid-margin;
+
+  .grid &:last-of-type {
+    margin-right: 0; 
+  }
+
+  border-collapse: collapse !important;
+}
+
+.grid {
+  width: 100%;
+  margin-top: $grid-top-bottom-margin;
+  margin-bottom: $grid-top-bottom-margin;
+
+  &:first-of-type {}
+  &:last-of-type {}
+  &:after {  
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+.grid--blog {
+  @extend .grid;
+  margin-top: $grid-blog-top-bottom-margin;
+  margin-bottom: $grid-blog-top-bottom-margin;
+  &:first-of-type {
+    margin-top: $grid-top-bottom-margin;
+  }
+}
+
+.grid--solo {
+  @extend .grid;
+  // no top/bottom exceptions where there is only one grid element in a container
+  // margin-top: $grid-top-bottom-margin;
+  // margin-bottom: $grid-top-bottom-margin;
+}
+
+/* 
+In a container--full (text-align center) with no wrap, 
+we might need the grid content to have align-left.
+*/
+.grid--left {
+  @extend .grid;
+  text-align: left;
+}
+
+.grid--flat {
+  @extend .grid;
+  // no top/bottom margins
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.grid--logo {
+  @extend .grid;
+  margin-top: ($grid-top-bottom-margin - 1rem) !important;
+}
+
+.grid--sublogo {
+  @extend .grid;
+  margin-top: ( ($grid-top-bottom-margin / 2) - 1rem) !important;
+  margin-bottom: ( ($grid-top-bottom-margin / 2) ) !important;
+}
+
+.col-1-2 { width: 48.5%; } 
+.col-1-3 { width: 31.3333333333%; } 
+.col-2-3 { width: 65.6666666666%; }
+.col-1-4 { width: 22.75%; }
+.col-3-4 { width: 74.25%; }
+.col-2-5 { width: 38.2%; }
+.col-3-5 { width: 58.8%; }
+
+.col-n-1  { width: 5.5833333333%; }
+.col-n-2  { width: 14.1666666667%; }
+.col-n-3  { width: 22.75%; }
+.col-n-4  { width: 31.3333333333%; }
+.col-n-5  { width: 39.9166666667%; }
+.col-n-6  { width: 48.5%; }
+.col-n-7  { width: 57.0833333333%; }
+.col-n-8  { width: 65.6666666667%; }
+.col-n-9  { width: 74.25%; }
+.col-n-10 { width: 82.8333333333%; }
+.col-n-11 { width: 91.4166666667%; }
+.col-n-12 { width: 100%; }
+
+// add more as needed
+
+.single-col {
+  margin: 0 auto;
+  width: 100%;
+  max-width: $single-col-max-width;
+}
+
+/* Portfolio Display
+------------------------------------------------------- */ 
+
+/*
+The .counter div is used to add a (non-grid-specific) parent holder, 
+so we can address the child divs by count (hence the name)
+*/
+
+.counter { 
+  margin: 0; 
+  padding: 0;  
+}
+ 
+.grid .four {
+  float: left; 
+  display: inline;
+  width: 24.25%; 
+  margin: 0 1% 1% 0; 
+}
+.grid .counter .four:nth-child(4n+4) {  
+  margin-right: 0;
+}
+
+.grid .three {
+  float: left; 
+  display: inline;
+  width: 32.6666666667%; 
+  margin: 0 1% 1% 0; 
+}
+.grid .counter .three:nth-child(3n+3) {  
+  margin-right: 0;
+}
+
+.grid .counter .two {
+  float: left; 
+  display: inline;
+  width: 49.5%; 
+  margin: 0 1% 1% 0; 
+}
+.grid .counter .two:nth-child(2n+2) {  
+  margin-right: 0;
+}
+
+/* /Portfolio Display */

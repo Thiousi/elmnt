@@ -1,0 +1,133 @@
+/* Modules - Buttons
+------------------------------------------------------- */
+
+// base button
+
+button,
+.button {
+  display: inline-block; 
+  color: $button-color !important; 
+  background: $button-background-color;
+  text-decoration: none; 
+  text-transform: $button-text-transform; 
+  text-align: center; 
+  font-family: $sans; 
+  font-weight: $button-font-weight-default; 
+  font-weight: $button-font-weight; 
+  font-size: $button-font-size; 
+  letter-spacing: $button-letter-spacing;
+  line-height: 1em; 
+  cursor: pointer; 
+  padding: $button-padding;
+  margin: $button-margin;
+  -webkit-font-smoothing: antialiased;
+  border: none !important;
+
+  &:visited {
+    color: $button-color !important;
+    background: $button-background-color-visited;
+  }
+  &:hover,
+  &:focus {
+    color: $button-color !important;
+    background: $button-background-color-hover;
+  }
+  &:active {
+    color: $button-color !important;
+    background: $button-background-color-active;
+  }
+
+}
+
+// alternate color buttons
+
+.button--altone {
+  @extend .button; 
+  background: $button-color-altone;
+}
+.button--alttwo {
+  @extend .button; 
+  background: $button-color-alttwo;
+}
+
+// big button
+
+.button--big {
+  @extend .button; 
+  padding: $button-big-padding;
+  font-size: $button-big-font-size;
+}
+
+// big alternate color buttons
+
+.button--big--altone {
+  @extend .button--big; 
+  background: $button-color-altone;
+}
+.button--big--alttwo {
+  @extend .button--big; 
+  background: $button-color-alttwo;
+}
+
+// small button
+
+.button--small {
+  @extend .button; 
+  padding: $button-small-padding;
+  font-size: $button-small-font-size;
+}
+
+// small alternate color buttons
+
+.button--small--altone {
+  @extend .button--small; 
+  background: $button-color-altone;
+}
+.button--small--alttwo {
+  @extend .button--small; 
+  background: $button-color-alttwo;
+}
+
+/*
+// Disabled button
+
+.button--disabled {
+  cursor: default;
+  pointer-events: none;
+  border-bottom: 3px solid #999999;
+  background: #cccccc;
+}
+
+// Important button
+
+.button--important {
+  border-bottom: 3px solid darken($important, 10%);
+  background: $important;
+
+  &:hover {
+    background: darken($important, 5%);
+  }
+  &:active {
+    border-bottom: 3px solid darken($important, 20%);
+    background: darken($important, 10%);
+  }
+
+}
+
+// Success button
+
+.button--success {
+  border-bottom: 3px solid darken($success, 10%);
+  background: $success;
+
+  &:hover {
+    background: darken($success, 5%);
+  }
+  
+  &:active {
+    border-bottom: 3px solid darken($success, 20%);
+    background: darken($success, 10%);
+  }
+
+}
+*/

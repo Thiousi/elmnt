@@ -1,0 +1,42 @@
+/* @media all and (min-width: 600px){ */
+
+  img.photobox {
+    //display: inline-block;
+    //vertical-align: top;
+    cursor: pointer;
+  }
+  #photobox-container {
+    display: table-cell;
+    vertical-align: middle;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    //font: 0/0 a;
+    text-align: center;
+  }
+  #photobox-container:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+  #photobox-container > img {
+    display: inline-block;
+    vertical-align: middle !important;
+    max-width: 90%;
+    max-height: 90%;
+  }
+  #photobox-close {
+    position: absolute;
+    top: 50px;
+    right: 45px;
+    width: 16px;
+    height: 16px;
+    background: url("/assets/images/photobox/close.png");
+    cursor: pointer;
+  }
+
+/* } */

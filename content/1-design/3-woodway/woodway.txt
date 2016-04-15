@@ -1,0 +1,21 @@
+Title: Woodway
+
+----
+
+Group: design
+
+----
+
+Text:
+
+###Woodway
+
+Woodway is a line of durable, custom wood products for the home and garden, owned &amp; operated by LWO Corporation in Portland.
+
+Their new site offers online quotes, secure eCommerce for shippable products, a login for professional contractors to get discounted pricing, and a dealer locator.
+
+**Agency:** *BuildingOnline*
+
+**Role:** *strategy, design, front-end development*
+
+(link: http://woodwayproducts.com text: woodwayproducts.com target: _blank)

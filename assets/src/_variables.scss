@@ -1,0 +1,393 @@
+/* Global Variables
+------------------------------------------------------- */
+
+$font-size-lg: 20px;
+$font-size-md: 18px;
+$font-size-sm: 16px;
+
+/*
+Everything starts with the global font size.
+We start with the large size, and decrease in _responsive.scss
+*/
+$base-font-size: $font-size-lg;
+
+// use this with the border radius mixin
+$base-border-radius: 4px;
+/* usage:
+@include border-radius($base-border-radius)
+*/
+
+/*
+Bottom margin for special clearfix 
+(for example: applied to form select elements)
+*/
+$cfxmb-margin-bottom: 1rem;
+
+/* Color Variables
+------------------------------------------------------- */
+
+// mrmrs colors
+// mrmrs cool
+/*
+$mrmrs-aqua:  #7FDBFF;
+$mrmrs-blue:  #0074D9;
+$mrmrs-navy:  #001F3F;
+$mrmrs-teal:  #39CCCC;
+$mrmrs-green: #2ECC40;
+$mrmrs-olive: #3D9970;
+$mrmrs-lime:  #01FF70;
+
+// mrmrs warm
+$mrmrs-yellow:  #FFDC00;
+$mrmrs-orange:  #FF851B;
+$mrmrs-red:     #FF4136;
+$mrmrs-fuchsia: #F012BE;
+$mrmrs-purple:  #B10DC9;
+$mrmrs-maroon:  #85144B;
+
+// mrmrs greys
+$mrmrs-white:  #fff;
+$mrmrs-silver: #ddd;
+$mrmrs-gray:   #aaa;
+$mrmrs-black:  #111;
+*/
+
+// greys
+$color-grey-f3: #f3f3f3;
+$color-grey-f6: #f6f6f6;
+$color-grey-f9: #f9f9f9;
+$color-grey-e: #eee;
+$color-grey-d: #ddd;
+$color-grey-c: #ccc;
+$color-grey-b: #bbb;
+$color-grey-a: #aaa;
+$color-grey-9: #999;
+$color-grey-8: #888;
+$color-grey-7: #777;
+$color-grey-6: #666;
+$color-grey-5: #555;
+$color-grey-4: #444;
+$color-grey-3: #333;
+
+$theme-dark-light-amount: 30%;
+
+// source: Palettes, by Duminda Perera
+// http://www.graphicart-news.com/minimalist-color-palettes-2015
+$perera-yellow: #e5fcc2;
+$perera-green: #9de0ad;
+$perera-aqua: #45ada8;
+$perera-blue: #547980;
+$perera-grey: #594f4f;
+
+// theme colors
+// $theme-text-color: $perera-grey;
+$theme-text-color: $color-grey-5;
+$theme-main-color: $perera-grey;
+$theme-brand-color: $perera-blue;
+$theme-link-color: $perera-aqua;
+$theme-link-color-hover: $perera-green;
+$theme-heading-color: $perera-blue;
+
+$color-error: red;
+$color-success: green;
+
+/* Generic
+------------------------------------------------------- */
+// generic.normalize
+// generic.box-sizing
+
+/* Base
+------------------------------------------------------- */
+
+// Typekit info
+/*
+body: minion-pro 400 / 400  italic / 600
+proxima-nova 400 / 600
+*/
+
+$sans: "proxima-nova", Helvetica, Arial, sans-serif;
+$serif: "minion-pro", Georgia, Times, "Times New Roman", serif;
+//$serif: Georgia, Times, "Times New Roman", serif;
+$mono-font: Consolas, Monaco, "Courier New", monospace;
+
+// base
+/* no specific variables */
+
+// ----------- base.page
+
+// $body-background: white;
+$body-background: $theme-main-color;
+$transition-time: 0.25s;
+
+// ----------- base.images
+
+$img-vertical-align: middle;
+$figure-margin: 0;
+$figure-padding: 0; 
+$figcaption-margin: 1px 0 1rem 0;
+$figcaption-padding: 1rem;
+$figcaption-font-family: $sans;
+$figcaption-font-size: .75rem;
+$figcaption-line-height: 1.125rem;
+$figcaption-color: white;
+$figcaption-background-color: $theme-main-color;
+
+// ----------- base.links
+
+$link-text-decoration: underline;
+$link-color: $theme-link-color;
+$link-text-decoration-hover: none;
+$link-color-hover: $theme-link-color-hover;
+
+// ----------- base.type
+
+//$base-font-size:; // set on top, so it's a global setting
+$base-font-family: $serif;
+$base-line-height: 1.5em;
+$base-line-height: 1.5em;
+$base-text-color: $theme-text-color;
+$p-margin: 0 0 1rem 0;
+$p-padding: 0;
+$p-line-height: 1.55em;
+$p-bold: 600;
+
+$heading-font-family: $sans;
+$heading-font-weight: 600;
+$heading-font-weight-light: 400;
+$heading-line-height: 1.25em;
+$heading-margin: 1rem 0;
+$heading-padding: 0;
+$heading-color: $theme-heading-color;
+$heading-letter-spacing: normal;
+
+// some special styles for the h1
+// $h1-letter-spacing: -2px;
+$h1-line-height: 1.125em;
+
+$h1: 2.25rem;
+$h2: 1.75rem;
+$h3: 1.5rem;
+$h4: 1rem;
+$h5: .875rem;
+$h6: .75rem;
+
+$h1-mobile: 2.25rem;
+$h2-mobile: 1.75rem;
+$h3-mobile: 1.5rem;
+$h4-mobile: 1rem;
+$h5-mobile: .875rem;
+$h6-mobile: .75rem;
+
+//$h-transform: uppercase;
+$h-transform: uppercase;
+
+// blockquote
+$blockquote-margin: .5rem 0 1.5rem 0;
+$blockquote-padding: 0 0 0 1.5rem;
+$blockquote-color: lighten($base-text-color, $theme-dark-light-amount);
+$blockquote-border-left: 5px solid lighten($base-text-color, $theme-dark-light-amount);
+
+// pre/code
+// $pre-size: 80%;
+$pre-line-height: 1.25;
+$pre-margin-bottom: 1em;
+
+// definition list
+$dt-font-weight: 400;
+$dt-margin: 1em 0 0 0;
+$dt-padding: 0;
+$dd-margin: 0;
+$dd-padding: 0;
+
+// horizontal rule
+$hr-margin-top: 1em;
+$hr-margin-bottom: 1rem;
+$hr-border: none;
+$hr-border-bottom: 1px solid $base-text-color;
+
+/* Modules
+------------------------------------------------------- */
+
+// ----------- modules.buttons 
+
+// button base styles
+$button-color: white;
+$button-background-color: $theme-link-color;
+$button-text-transform: uppercase;
+$button-font-weight-default: bold;
+$button-font-weight: 600;
+$button-font-size: .7rem;
+$button-letter-spacing: 1px;
+$button-padding: 1rem 2rem;
+$button-margin: 1rem 0;
+
+// button states
+$button-color-visited: $button-color;
+$button-background-color-visited: $button-background-color;
+$button-color-hover: $button-color;
+$button-background-color-hover: darken($theme-link-color, $theme-dark-light-amount);
+$button-color-active: $button-color;
+$button-background-color-active: $button-background-color-hover;
+
+// small buttons
+$button-small-padding: .5rem 1.5rem;
+$button-small-font-size: .5rem;
+
+// big buttons
+$button-big-padding: 2rem 4rem;
+$button-big-font-size: 1rem;
+
+// alternate color buttons
+$button-color-altone: $theme-text-color;
+$button-color-alttwo: $theme-text-color;
+
+// ----------- modules.form-hack
+// all variables set in _modules.form-hack
+
+// ----------- modules.tables
+
+$table-border-color: red;
+$table-head-background-color: red; 
+
+// modules.headroom
+
+// ----------- modules.layout (the grid)
+
+/*
+Setting container-max-width at 100% allows for edge-to-edge layout.
+There are two containers: 
+1) .container (with l/r padding)
+2) .container--full (no l/r padding)
+.container is the "standard" content holder
+Use .container-full for edge-to-edge images, slideshow, etc.
+BOTH allow for edge-to-edge color background.
+The (optional) wrap sets a max content width.
+
+|-------------------- screen --------------------|
+|--p--|------------ container -------------|--p--|
+|----------|---------- wrap ----------|----------|
+
+*/
+
+$container-background-color: white;
+$container-max-width: 100%;
+$container-pad: 0 40px;
+$container-pad-tablet: 0 20px;
+$container-pad-mobile: 0 20px;
+$wrap-max-width: 1200px;
+$wrap-portfolio-max-width: 1600px;
+$wrap-min-width: 100px;
+
+$single-col-max-width: 720px;
+
+$grid-top-bottom-margin: 3rem;
+$grid-top-bottom-margin-mobile: 1rem;
+
+$grid-blog-top-bottom-margin: 1.5rem;
+$grid-blog-top-bottom-margin-mobile: 1rem;
+
+$pad: 1rem;
+$pad-small: .5rem;
+$pad-big: 2rem;
+
+// ----------- modules.nav
+
+$nav-font: $sans;
+$nav-font-size: .7rem;
+$nav-line-height: 1em;
+
+$navmain-align: right;
+$navmain-text-transform: uppercase;
+$navmain-letter-spacing: 2px;
+$navmain-font-weight: 400;
+$navmain-holder-background: $theme-main-color; // the container background
+$navmain-button-pad: 1rem; 
+$navmain-background: $theme-main-color; 
+$navmain-background-hover: $theme-main-color; 
+$navmain-color: white; 
+//$navmain-color-hover: darken($navmain-color, $theme-dark-light-amount);
+$navmain-color-hover: $perera-yellow;
+$brand-pad: 40px 0;
+$brand-background: $navmain-holder-background;
+
+$navmobile-font-size: 1rem;
+$navmobile-text-transform: uppercase;
+$navmobile-text-align: center;
+$navmobile-background: $theme-main-color; 
+$navmobile-border: 1px solid lighten($navmobile-background, $theme-dark-light-amount);
+$navmobile-link-color: white;
+$navmobile-link-padding: 1rem; 
+$navmobile-link-background: $navmobile-background;
+$navmobile-link-background: $navmobile-background;
+$navmobile-link-color-hover: white;
+$navmobile-link-background-hover: $navmobile-background;
+
+// ----------- modules.nav -> _responsive
+
+$navmobile-background: white;
+$navmobile-pad: 0;
+$navmobile-trigger-pad: 1rem;
+$navmobile-trigger-color: black;
+$navmobile-trigger-color-hover: red;
+
+// ----------- modules.responsiveslides
+
+/*
+$rslides-margin-bottom: 1rem;
+$rslides-tap-color: rgba(0,0,0,0);
+$rslides-nav-top: 50%;
+$rslides-nav-left: 0;
+$rslides-nav-z-index: 99;
+$rslides-nav-opacity: 0.7;
+$rslides-nav-opacity-active: 1.0;
+$rslides-tabs-margin: 1rem 0 0 0;
+$rslides-tabs-li-margin: 0 1rem 0 0;
+$rslides-tabs-radius: 15px;
+$rslides-tabs-background-hex: #ccc;
+$rslides-tabs-background-rgb: rgba(0,0,0, .2);
+$rslides-tabs-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+$rslides-tabs-width: 9px;
+$rslides-tabs-height: 9px;
+$rslides-tabs-here-hex: #222;
+$rslides-tabs-here-rgb: rgba(0,0,0, .8);
+$rslides-caption-display: block;
+$rslides-caption-bottom: 0;
+$rslides-caption-left: 0;
+$rslides-caption-right: 0;
+$rslides-caption-padding: 15px;
+$rslides-caption-text-align: center;
+$rslides-caption-background-hex: #000;
+$rslides-caption-background-rgb: rgba(0,0,0, .8);
+$rslides-caption-color: white;
+*/
+
+// modules.accordions
+// modules.alerts
+// modules.bg-slideshow
+// modules.breadcrumbs
+
+/* Partials
+------------------------------------------------------- */
+
+// ----------- partials.blog
+
+$blog-description-subtitle-color: lighten($theme-text-color, $theme-dark-light-amount);
+
+/* Customizations
+------------------------------------------------------- */
+// custom
+
+/* Media
+------------------------------------------------------- */
+
+// ----------- responsive
+
+$break-lg: 1200px;
+$break-md: 992px;
+$break-sm: 768px;
+$break-xs: 500px;
+
+// media.print
+
+/* Responsive Breakoints
+------------------------------------------------------- */

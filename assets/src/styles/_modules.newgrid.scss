@@ -1,0 +1,40 @@
+/**
+ * 12-column Grid
+ */
+
+/*
+
+// settings
+$grid-columns: 12;
+$grid-gutter: 3;
+$single-col-width: (100 - (($grid-columns - 1) * $grid-gutter )) / $grid-columns;
+
+// container
+.grid {
+  width: 100%; 
+  &:after {  
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// column alignment
+[class*='col-'] {
+  float: left; 
+  margin-right: $grid-gutter * 1%; 
+  .grid &:last-of-type {
+    margin-right: 0; 
+  }
+  border-collapse: collapse !important;
+}
+
+// column widths
+// (this generates our individual column classes)
+@for $column from 1 through $grid-columns {
+  .col-#{$column} {
+    width: (($single-col-width * $column) + (($column - 1) * $grid-gutter) * 1%)
+  }
+}
+
+*/

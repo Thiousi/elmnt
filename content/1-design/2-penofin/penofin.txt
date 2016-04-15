@@ -1,0 +1,20 @@
+Title: Penofin
+
+----
+
+Group: design
+
+----
+
+Text:
+
+###Penofin
+
+Penofin is a leading independent wood stain company based in Northern California. We redesigned &amp; built their new site to display their complete line of products, with a custom dealer locator.
+
+**Agency:** *BuildingOnline*
+
+**Role:** *strategy, design, front-end development*
+
+(link: http://penofin.com text: penofin.com target: _blank)
+
