@@ -13,7 +13,6 @@ config.codekit
 /assets/fonts
 /assets/images/photobox
 /assets/images/slideshow
-/assets/js/jquery.mosaicflow.min.js
 /assets/js/jquery.photobox.min.js
 /assets/src/featherlight
 /assets/src/featherlight-1.4.0
