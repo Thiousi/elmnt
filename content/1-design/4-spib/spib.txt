@@ -10,7 +10,7 @@ Text:
 
 ###SPIB
 
-This site for the Southern Pine Inspection Bureau includes member subscription, e-commerce, a product locator, and a custom Wordpress theme for the blog section.
+This site for the Southern Pine Inspection Bureau includes member subscription, commerce, a product locator, and a custom Wordpress theme for the blog section.
 
 **Agency:** *BuildingOnline*
 
