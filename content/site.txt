@@ -13,6 +13,6 @@ Description: Design, Front-End Development, Illustration, HTML, CSS, SASS, jQuer
 Copyright: 
 
 _elmnt.com_ is a property of Element Creative, LLC
-Copyright &copy; Greg Smith 2001-2015
+Copyright &copy; Greg Smith 2001-2016
 Protected and licensed under a (link: http://creativecommons.org/licenses/by/1.0/ text: Creative Commons License)
 No content on this site may be used or reproduced without written consent.
