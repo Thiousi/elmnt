@@ -33,7 +33,7 @@ This site was built with (link: https://github.com/elmnt/grom text: Grom target:
 
 As much as I love the meta-detail of "tools I use" info that other designers share, at some point in your career the correct answer is "whatever the project/collaboration requires." That being said, if I'm working, it will currently involve some or all of these:
 
-Google Docs, Dropbox, Flow, Wunderlist, Moqups, Photoshop, Illustrator, Sketch, Sublime Text, Terminal, GitHub Desktop, Codekit, MAMP, and plenty of browsers.
+Google Docs, Dropbox, Flow, Pivotal Tracker, Wunderlist, Moqups, Photoshop, Illustrator, Sketch, Sublime Text, Terminal, GitHub Desktop, Codekit, MAMP, and plenty of browsers.
 
 I manage local development with either (link: http://gulpjs.com text: Gulp target: _blank) or (link: https://incident57.com/codekit/ text: Codekit target: _blank), depending on the project. My favorite deployment tool is (link: http://beanstalkapp.com text: Beanstalk target: _blank). You can find some of my code on (link: https://github.com/elmnt text: Github target: _blank).
 
