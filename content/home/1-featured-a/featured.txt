@@ -12,4 +12,4 @@ iDONATEpro is a very robust, multi-featured software platform for fund-raising. 
 
 ----
 
-FeaturedImg: (image: idp-sample-1200.png link: /designs/idonatepro class: fit caption: © 2015 iDONATEpro, All Rights Reserved)
+FeaturedImg: (image: idp-sample-1200.png class: fit caption: © 2015 iDONATEpro, All Rights Reserved)
