@@ -29,12 +29,6 @@ I'm curating a very trimmed-down portfolio these days. With this iteration of my
 
 This site was built with (link: https://github.com/elmnt/grom text: Grom target: _blank), a framework I designed as a starting point for client projects. I have (link: http://getkirby.com text: Kirby target: _blank) running the back-end (including Sascha Lack's (link: http://baseblog.sashtown.de text: Baseblog target: _blank) running the blog section (coming soon).
 
-####TOOLS
-
-As much as I love the meta-detail of "tools I use" info that other designers share, at some point in your career the correct answer is "whatever the project/collaboration requires." That being said, if I'm working, it will currently involve some or all of these:
-
-Google Docs, Dropbox, Flow, Pivotal Tracker, Wunderlist, Moqups, Photoshop, Illustrator, Sketch, Sublime Text, Terminal, GitHub Desktop, Codekit, MAMP, Transmit, and plenty of browsers.
-
 I manage local development with either (link: http://gulpjs.com text: Gulp target: _blank) or (link: https://incident57.com/codekit/ text: Codekit target: _blank), depending on the project. My favorite deployment tool is (link: http://beanstalkapp.com text: Beanstalk target: _blank). You can find some of my code on (link: https://github.com/elmnt text: Github target: _blank).
 
 <!-- I use the (link: https://github.com/buymeasoda/soda-theme text: Soda Theme target: _blank) in Sublime Text 3, with the (link: https://packagecontrol.io/packages/Base16%20Color%20Schemes text: Base​16 Color Schemes target: _blank). I'm partial to base16-atelierdune light &amp; dark, depending on the time of day. -->
