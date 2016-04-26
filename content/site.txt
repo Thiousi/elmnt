@@ -6,7 +6,7 @@ Author: Greg Smith
 
 ----
 
-Description: Design, Front-End Development, Illustration, HTML, CSS, SASS, jQuery, Wordpress
+Description: Greg Smith - Designer & Illustrator
 
 ----
 
