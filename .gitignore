@@ -23,3 +23,4 @@ config.codekit
 # inactive content
 /content/x-*
 /content/resume
+/site/snippets/greg-resume.php
