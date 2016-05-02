@@ -2,7 +2,7 @@ Title: Whoops
 
 ----
 
-Text: Looks like you got lost. There's no clever, rich, interactive, animated 404 experience here. I don't have time for that shit. 
+Text: Looks like you got lost.
 
 Just click a link or something.
 
