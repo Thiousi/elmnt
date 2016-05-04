@@ -12,7 +12,7 @@ Description: Greg Smith - Designer and Illustrator
 
 Copyright: 
 
-_elmnt.com_ is a property of Element Creative, LLC
+(link: /resume text: View/Download Greg's Resume)
 Copyright &copy; Greg Smith 2001-2016
 Protected and licensed under a (link: http://creativecommons.org/licenses/by/1.0/ text: Creative Commons License)
 No content on this site may be used or reproduced without written consent.
