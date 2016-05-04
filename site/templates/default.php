@@ -14,9 +14,9 @@
 
   <?php snippet('projects-illustration') ?>
 
-<?php elseif( $page->id() == "resume" ): ?>
+<?php elseif( $page->id() == "resume" || $page->id() == "contract" ): ?>
 
-  <?php snippet('greg-resume') ?>
+  <?php snippet('greg-inside') ?>
 
 <?php else: ?>
 
