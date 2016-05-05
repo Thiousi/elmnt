@@ -12,11 +12,13 @@ Menu: Info
 
 Text:
 
-My name's Greg. I'm a designer &amp; illustrator. I've been building websites for 15 years. I'm the Creative Director at a small, friendly (link: http://www.buildingonline.net target: blank text: agency) in Southern California. I solve problems for my clients, and I design and build interfaces for screens of all sizes. Thanks for stopping by.
+My name's Greg. I'm a designer &amp; illustrator. I've been building websites for 15 years. I'm the Creative Director at a small, friendly (link: http://www.buildingonline.net target: blank text: agency) in Southern California. I solve problems for my clients, and I design and build interfaces for screens of all sizes.
 
 I have a bachelor's degree in journalism from SDSU. I studied illustration and design at The Art Institute of Southern California, now called (link: http://www.lcad.edu text: The Laguna College of Art &amp; Design). While in art school, I bought a book called *Teach Yourself HTML 4 in 24 Hours,* and I joined the wave of designers/illustrators who became self-taught front-end coders.
 
 I've been designing and building websites since tables &amp; transparent GIFs were the standard. I fell in (and then out of) love with Flash, and now I feel fortunate to work in an environment where multi-device constraints are pushing us to focus on things like page weight and simple content readability again.
+
+View/download my (link: /resume text: resume).
 
 <!--
 #Extra
