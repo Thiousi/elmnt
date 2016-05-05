@@ -20,6 +20,6 @@
 <meta name="apple-mobile-web-app-title" content="<?php echo html($site->title()) ?>">
 <link rel="alternate" type="application/rss+xml" href="<?php echo url('feed') ?>" title="Blog Feed">
 <?php echo css('/assets/css/styles.css') ?>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 </head>
 <body>

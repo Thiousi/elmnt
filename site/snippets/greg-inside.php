@@ -40,7 +40,8 @@ html {
     <div class="col-1-2">
       <h2><?php echo $page->title()->html() ?></h2>
       <?php if( $page->id() == "resume" ): ?>
-        <p><a href="/assets/pdf/greg-smith-resume.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> PDF Version</a></p>
+        <p style="margin-bottom:.125rem;"><a href="/assets/pdf/greg-smith-resume.pdf" target="_blank">View/Download PDF</a></p>
+        <p><a href="https://docs.google.com/document/d/1xJpW8tEVrJCJYg2WY6vzwIKRsIocnexsb2sUTUEVoxk/edit?usp=sharing" target="_blank">View in Google Docs</a></p>
       <?php endif ?>
     </div>
 
