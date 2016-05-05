@@ -18,8 +18,8 @@ To serve in a leadership/collaborative role, working on interactive design &amp;
 - Mentor a team to maintain design and front-end development standards
 - Communicate with clients to establish project goals, priorities and deadlines
 - Define project scope and prioritize deliverables with team members
-- Designed and built custom front-end frameworks
-- Designed and built custom Wordpress themes
+- Design and build custom front-end frameworks
+- Design and build custom Wordpress themes
 - Responsible, on all projects, for some or all: brand development, project management, information architecture, creative/art direction, UI design, front-end development
 - Present work to clients through all project phases
 
