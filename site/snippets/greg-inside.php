@@ -4,7 +4,7 @@
 }
 .resume__links a,
 .resume__contact a { 
-  text-decoration: none; 
+  /* text-decoration: none;  */
 }
 .resume__links,
 .resume__contact {
