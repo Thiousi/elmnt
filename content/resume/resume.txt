@@ -15,13 +15,13 @@ To serve in a leadership/collaborative role, working on interactive design &amp;
 
 #####Responsibilities
 - Created and implemented a phase-based project process for all work
-- Mentored a team to maintain design and front-end development standards
-- Communicated with clients to establish project goals, priorities and deadlines
-- Defined project scope and prioritized deliverables with team members
+- Mentor a team to maintain design and front-end development standards
+- Communicate with clients to establish project goals, priorities and deadlines
+- Define project scope and prioritize deliverables with team members
 - Designed and built custom front-end frameworks
 - Designed and built custom Wordpress themes
 - Responsible, on all projects, for some or all: brand development, project management, information architecture, creative/art direction, UI design, front-end development
-- Presented work to clients through all project phases
+- Present work to clients through all project phases
 
 **Clients include:** Grohe, Henkel, James Hardie, Lasko, Loctite Products, OSI, Penofin, Woodway
 
@@ -48,7 +48,7 @@ San Diego State University &mdash; San Diego, CA, 1998
 **Major:** Journalism / **Minor:** American Literature / **Degree Earned:** BA
 
 ###Skills
-Strong leadership, presentation, and communication skills; comfortable in client-facing roles; comfortable selling design &amp; justifying design decisions; aggressive problem solver; patient and considerate under pressure; information architecture; art direction; UI design; Adobe Creative Suite; Sketch; HTML/CSS/SCSS (expert); jQuery/PHP (competent);
+Strong leadership, presentation, and communication skills; comfortable in client-facing roles; comfortable selling design &amp; justifying design decisions; aggressive problem solver; patient and considerate under pressure; information architecture; art direction; UI design; Adobe Creative Suite; Sketch; HTML/CSS/SCSS (expert); jQuery/PHP (competent)
 
 ###Personal Interests / Accomplishments
 Surfer; oil painter; muralist; studied improv &amp; sketch comedy writing at The Groundlings School in Los Angeles for three years; taught art/illustration/design for four years at ARTS (an art-based youth outreach program) in San Diego, CA
