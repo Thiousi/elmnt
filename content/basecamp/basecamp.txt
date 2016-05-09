@@ -1,0 +1,59 @@
+Title: I ♥ Basecamp
+
+----
+
+Intro:
+
+Hello. I'm Greg Smith. I'm a designer & illustrator. I've been designing &amp; building web interfaces for 15 years. I'm the Creative Director at a small, friendly agency in Southern California. I'm looking for a leadership/collaborative position with a competitive, optimistic team of happy people.
+
+(link: /info target: blank text: My Bio) / (link: /resume target: blank text: My Resume)
+
+----
+
+Text:
+
+### I've been a Basecamp user for years.
+
+I would love to work on a product I use and enjoy. I work remotely (from Portland) for an agency in Southern California. I'm a self-starter. I embrace and protect my remote lifestyle with drive and dedication. Basecamp has helped facilitate this lifestyle. I've always been in awe of Mr. Fried's commitment to the well-being of Basecamp employees.
+
+### Considerations
+
+I've replied to some questions from Ms. De Luca's Medium post. Thank you, in advance, for your time and consideration.
+
+#### 1. Do you enjoy telling stories and helping customers succeed? How can you demonstrate that?
+
+A user interface is a narrative. Whether I'm supporting aluminum widgets or software, before anyone will buy it, they need to know the story.
+
+(link: /design target: blank text: Examples of my UI design)
+
+I'm also an illustrator. I'm currently working on a series of children's books. I love using humor and emotion to tell a story. 
+
+(link: /illustration target: blank text: Examples of my illustration work)
+
+#### 2. How does our product market itself? How would you blur the line between product design and marketing design?
+
+Basecamp markets itself through collaboration and conversation. I've worked with teams whose project onboarding process involved someone saying "We'll add you in Basecamp." I might take advantage of that project-based inclusion to add marketing, in the product, to convert those non-paying collaboration users to permanent users.
+
+#### 3. How would you use immediate feedback on how your design impacts our customers, their adoption of Basecamp and their success?
+
+It's crucial for designers to let go of ideas that aren't working, and let user feedback drive the next decision. Listen, adapt, iterate. Design that is agile and flexible lets users know we're listening.
+
+#### 4. Have you ever considered what the purpose of a website for a company like Basecamp should be?
+
+On a small scale, user support and conversion (sales). On a grander scale, tell the corporate story and share ideals. Be positive, optimistic, and be a cheerleader for personal and professional success. Make users want to be a part of your family and culture, and not just "sign up &amp; pay."
+
+#### 5. Are you someone who excels at getting your points across visually and succinctly? How do you do that?
+
+Listen, listen, listen. Then sketch, brainstorm, and force any ideas to support the client/project goal. If they don't help tell the story, start again. I'm never precious with ideas or designs. If they don't work, I'll let them go, and keep scribbling.
+
+#### 6. Do you like to see how your work can move company levers? What did you do that helped move the needle?
+
+Success is building a tool that makes a client's life easier. Most recently, I built a Terms of Service form for my client iDONATEpro ((link: /design target: blank text: featured in my work portfolio)). The form auto-generates a legally-binding contract, attaches it to the form's email reply, and prompts my client's sales team to follow-up with a phone call to complete the transaction. I've been able to track the increased conversions from the site.
+
+#### 7. Do you love seeing customers be successful? How do you do that?
+
+Ask questions, listen, and take good notes. Design is problem solving. As designers, we're often tempted to build the visual masterpiece. What's usually needed is a hammer that won't break. When a client uses a tool that I built, and, instead of complimenting the tool, they explain how it changed the way they work, I count that as success for us both.
+
+### Thank you!
+Thanks for your time and consideration. Please contact me, at your convenience, if you feel I'd be a good addition to your team.
+

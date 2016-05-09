@@ -27,15 +27,11 @@
 .resume__content ul {
   margin-left: 1.5rem;
 }
-html {
-  font-size: 16px;
-}
-/*
-.fa {
-  color: #45ada8;
-}
-*/
 </style>
+
+<?php if( $page->id() == "resume" ): ?>
+<style>html { font-size: 16px; }</style>
+<?php endif ?>
 
 <div class="container">
 <div class="wrap">
@@ -66,9 +62,30 @@ html {
 
   </div><!-- /.grid -->
 
+  <?php if( $page->id() == "resume" ): ?>
+
   <div class="grid resume__content">
     <?php echo $page->text()->kirbytext() ?>
   </div>
+
+  <?php endif ?>
+
+  <?php if( $page->id() == "basecamp" ): ?>
+
+  <div class="grid resume__content">
+    <div class="col-1-3"><img src="/content/home/elmnt-avatar.png" alt="Greg Smith" style="width:100%;max-width:300px;margin:0 auto;"></div>
+    <div class="col-2-3"><?php echo $page->intro()->kirbytext() ?></div>
+  </div><!-- /.grid -->
+
+  <div class="grid resume__content">
+    <?php echo $page->text()->kirbytext() ?>
+    <p class="resume__contact">
+    <a href="mailto:greg@elmnt.com">greg@elmnt.com</a><br>
+    <a href="tel:9492578520">949-257-8520</a>
+    </p>
+  </div><!-- /.grid -->
+
+  <?php endif ?>
 
   </div><!-- /.single-col -->
 
