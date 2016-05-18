@@ -16,6 +16,6 @@ This is the most recent reboot of our agency site.
 
 **Agency:** *BuildingOnline*
 
-**Role:** *strategy, art direction, design, development*
+**Role:** *strategy, direction, design, development*
 
 (link: http://buildingonline.net text: buildingonline.net target: _blank)
