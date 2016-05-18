@@ -20,6 +20,7 @@
 }
 .resume__content h3:first-child {
   margin-top: 0;
+  margin-bottom: .5rem;
 }
 .resume__content h5 {
   margin-bottom: .5rem;
