@@ -44,7 +44,6 @@
       <h2 style="margin-bottom: .5rem;"><?php echo $page->title()->html() ?></h2>
       <?php if( $page->id() == "resume" ): ?>
         <p class="resume__links"><a href="/assets/pdf/greg-smith-resume.pdf" target="_blank">View/Download PDF</a></p>
-        <p class="resume__links"><a href="https://docs.google.com/document/d/1xJpW8tEVrJCJYg2WY6vzwIKRsIocnexsb2sUTUEVoxk/edit?usp=sharing" target="_blank">View in Google Docs</a></p>
       <?php endif ?>
     </div>
 
