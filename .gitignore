@@ -23,6 +23,6 @@ config.codekit
 # inactive content
 /content/x-*
 #/content/resume
-/site/snippets/greg-resume.php
-/content/contract
+#/site/snippets/greg-resume.php
+#/content/contract
 #/site/snippets/greg-inside.php
