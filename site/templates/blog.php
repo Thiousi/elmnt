@@ -1,12 +1,44 @@
 <?php snippet('top') ?>
 <?php snippet('header') ?>
 
+<style>
+.blog-intro-content {
+  margin-right: 0;
+}
+@media all and (max-width: 800px){
+  .blog-intro-mobile { display: none; }
+  .blog-intro-content {
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+  }
+}
+</style>
+
+<div class="container">
+<div class="wrap">
+
+  <article style="border-bottom:5px solid #eee;">
+    <div class="grid">
+      <div class="col-1-3 blog-intro-mobile">
+        <p>&nbsp;</p>
+      </div>
+      <div class="col-2-3 blog-intro-content">
+        <h3 class="mt0">Thoughts &amp; ideas about design, illustration, and generally making stuff for the web</h3>
+        <p class="mb0">I've been a professional designer for about 15 years. I believe sharing professional insight makes everyone just a little better, and I believe it's important to give credit to those that have shared with and inspired us along the way.</p>
+      </div>
+    </div>
+  </article>
+
+</div>
+</div>
+
 <div class="container container--blog">
 <div class="wrap">
 
   <main role="main">  
   <div class="grid--blog">
-
+      
       <?php /*echo $page->intro()->kirbytext()*/ ?>
       <!--<h1><?php /*echo $page->title()->html()*/ ?></h1>-->
 
@@ -16,45 +48,45 @@
 
       <div class="single-col">
 
-      <?php $tag = urldecode(param('tag'));
-            $articles = $pages->find('blog')
-                              ->children()
-                              ->visible()
-                              ->filterBy('tags', $tag, ',')
-                              ->flip()
-                              ->paginate(10);
+        <?php $tag = urldecode(param('tag'));
+              $articles = $pages->find('blog')
+                                ->children()
+                                ->visible()
+                                ->filterBy('tags', $tag, ',')
+                                ->flip()
+                                ->paginate(10);
 
-          //echo '<h1>Articles tagged with:<br><span>#' . $tag . '</span></h1>';
-      ?>
-      
-      <h1>Articles tagged with:</h1>
+            //echo '<h1>Articles tagged with:<br><span>#' . $tag . '</span></h1>';
+        ?>
+        
+        <h1>Articles tagged with:</h1>
 
-      <h4 class="brand-color-0">#<?php echo $tag; ?></h4>
+        <h4 class="brand-color-0">#<?php echo $tag; ?></h4>
 
-      <ul class="results list-reset">
-        <?php foreach($articles as $article): ?>
-        <li style="margin-bottom:1rem;">
-          <p class="blog__meta-date"><time datetime="<?php echo $article->date('c') ?>"><?php echo $article->date('F dS, Y'); ?></time></p>
-          <h2 style="margin-top:.25rem;margin-bottom:.25rem;"><a href="<?php echo $article->url() ?>"><?php echo html($article->title()) ?></a></h2>
-          <?php if(!$article->subtitle()->empty()): ?>
-          <h4 style="margin-top:0;margin-bottom:1.5rem;"><?php echo $article->subtitle(); ?></h4>
-          <?php endif ?>
-          <!--
-          <div class="meta" style="margin-bottom:2rem;">
-            <time datetime="<?php echo $article->date('c') ?>"><?php echo $article->date('F dS, Y'); ?></time>
-            <?php if ($article->tags() != ''): ?>
-            <ul class="tags list-reset">
-              <?php foreach(str::split($article->tags()) as $tag): ?>
-              <li><a href="<?php echo url('blog/tag:' . urlencode($tag)) ?>">#<?php echo $tag; ?></a></li>
-              <?php endforeach ?>
-            </ul>
+        <ul class="results list-reset">
+          <?php foreach($articles as $article): ?>
+          <li style="margin-bottom:1rem;">
+            <p class="blog__meta-date"><time datetime="<?php echo $article->date('c') ?>"><?php echo $article->date('F dS, Y'); ?></time></p>
+            <h2 style="margin-top:.25rem;margin-bottom:.25rem;"><a href="<?php echo $article->url() ?>"><?php echo html($article->title()) ?></a></h2>
+            <?php if(!$article->subtitle()->empty()): ?>
+            <h4 style="margin-top:0;margin-bottom:1.5rem;"><?php echo $article->subtitle(); ?></h4>
             <?php endif ?>
-          </div>
-          -->
-          <!-- /.meta -->
-        </li>
-        <?php endforeach ?>
-      </ul>
+            <!--
+            <div class="meta" style="margin-bottom:2rem;">
+              <time datetime="<?php echo $article->date('c') ?>"><?php echo $article->date('F dS, Y'); ?></time>
+              <?php if ($article->tags() != ''): ?>
+              <ul class="tags list-reset">
+                <?php foreach(str::split($article->tags()) as $tag): ?>
+                <li><a href="<?php echo url('blog/tag:' . urlencode($tag)) ?>">#<?php echo $tag; ?></a></li>
+                <?php endforeach ?>
+              </ul>
+              <?php endif ?>
+            </div>
+            -->
+            <!-- /.meta -->
+          </li>
+          <?php endforeach ?>
+        </ul>
 
       </div><!-- /.single-col -->
 

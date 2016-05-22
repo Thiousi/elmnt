@@ -1,9 +1,9 @@
 /* Global Variables
 ------------------------------------------------------- */
 
-$font-size-lg: 18px;
-$font-size-md: 18px;
-$font-size-sm: 16px;
+$font-size-lg: 22px;
+$font-size-md: 20px;
+$font-size-sm: 18px;
 
 /*
 Everything starts with the global font size.
@@ -103,9 +103,13 @@ $color-success: green;
 /*
 body: minion-pro 400 / 400  italic / 600
 proxima-nova 400 / 600
+
+sofia-pro 400 / 600
+
 */
 
-$sans: "proxima-nova", Helvetica, Arial, sans-serif;
+//$sans: "proxima-nova", Helvetica, Arial, sans-serif;
+$sans: "sofia-pro", Helvetica, Arial, sans-serif;
 $serif: "minion-pro", Georgia, Times, "Times New Roman", serif;
 //$serif: Georgia, Times, "Times New Roman", serif;
 $mono-font: Consolas, Monaco, "Courier New", monospace;
@@ -154,7 +158,7 @@ $p-bold: 600;
 $heading-font-family: $sans;
 $heading-font-weight: 600;
 $heading-font-weight-light: 400;
-$heading-line-height: 1.25em;
+$heading-line-height: 1.35em;
 $heading-margin: 1rem 0;
 $heading-padding: 0;
 $heading-color: $theme-heading-color;
@@ -167,9 +171,9 @@ $h1-line-height: 1.125em;
 $h1: 2.25rem;
 $h2: 1.75rem;
 $h3: 1.5rem;
-$h4: 1rem;
-$h5: .875rem;
-$h6: .75rem;
+$h4: 1.25rem;
+$h5: 1.125rem;
+$h6: 1rem;
 
 $h1-mobile: 2.25rem;
 $h2-mobile: 1.75rem;

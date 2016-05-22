@@ -1,4 +1,3 @@
-
 // ----------- any leftover Kirby Baseblog styles
 
 /*
@@ -123,6 +122,11 @@ article > footer .button--fa {
   margin-bottom: 2rem;
 }
 
+.grid--blog .blog__content h4 {
+  margin: 1.5rem 0;
+  line-height: 1.5em;
+}
+
 // ----------- /settings for the single article pages
 
 // ----------- article titles
@@ -166,13 +170,6 @@ article > footer .button--fa {
   font-style: italic;
   margin-bottom: 1.25rem;
 }
-
-.blog__intro {
-  font-size: 1.25rem;
-  line-height: 1.5em;
-  margin-bottom: 1.25rem;
-}
-
 
 // wrench_pencil.svg blog__dcomm
 
