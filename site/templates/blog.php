@@ -24,7 +24,7 @@
         <p>&nbsp;</p>
       </div>
       <div class="col-2-3 blog-intro-content">
-        <h3 class="mt0">Thoughts &amp; ideas about design, illustration, and generally making stuff for the web</h3>
+        <h3 class="mt0">Thoughts &amp; ideas about design, illustration, and making stuff for the web</h3>
         <p class="mb0">I've been a professional designer for about 15 years. I believe sharing professional insight makes everyone just a little better, and I believe it's important to give credit to those that have shared with and inspired us along the way.</p>
       </div>
     </div>

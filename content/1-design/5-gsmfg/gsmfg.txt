@@ -8,7 +8,7 @@ Group: design
 
 Text:
 
-###SPIB
+### GSMFG
 
 GS Manufacturing is the leading manufacturer of dispensing systems for plural component materials. Their new site has a product catalog with specs, options, detailed photos &amp; videos.
 

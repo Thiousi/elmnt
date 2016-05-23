@@ -31,7 +31,7 @@
 </style>
 
 <?php if( $page->id() == "resume" ): ?>
-<style>html { font-size: 16px; }</style>
+<style>/*html { font-size: 18px; }*/</style>
 <?php endif ?>
 
 <div class="container">
