@@ -14,7 +14,7 @@ This site for the Southern Pine Inspection Bureau includes member subscription, 
 
 **Agency:** *BuildingOnline*
 
-**Role:** *development*
+**Role:** *development, custom WordPress theme development*
 
 (link: http://www.spib.org text: spib.org target: _blank)
 
