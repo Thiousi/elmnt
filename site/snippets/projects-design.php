@@ -2,6 +2,13 @@
 .work__wrap {
   border-bottom: 3px solid #ccc;
 }
+.work__wrap:last-child {
+  border-bottom: none !important;
+}
+.work__wrap:last-child img {
+  border: 3px solid #ccc;
+  margin-bottom: 1rem;
+}
 .work__piece {
   /*
   max-height: 600px;
@@ -9,9 +16,6 @@
   */
   padding-bottom: 2rem !important;
   margin-bottom: 0 !important;
-}
-.work__wrap .work__piece:last-child {
-  border-bottom: none;
 }
 </style>
 
@@ -25,7 +29,9 @@
 </div>
 </div>
 
-<?php foreach(page('design')->children()->visible()->limit(6) as $project): ?>
+<div class="wwcounter">
+
+<?php foreach(page('design')->children()->visible()->limit(7) as $project): ?>
 
 <div class="container cbg-2 work__wrap">
 <div class="wrap">
@@ -35,10 +41,17 @@
         <?php echo $project->text()->kirbytext() ?>
       </div>
       <div class="col-3-5">
+
         <?php /*if($image = $project->images()->sortBy('sort', 'asc')->first()):*/ ?>
-        <?php if($image = $project->images()->sortBy('sort', 'asc')->last()): ?>
+        <?php /*if($image = $project->images()->sortBy('sort', 'asc')->last()):*/ ?>
+        <!-- <img src="<?php /*echo $image->resize(800)->url()*/ ?>" alt="<?php /*echo $project->title()->html()*/ ?>"> -->
+        <?php /*endif*/ ?>
+
+        <?php foreach($project->images() as $image): ?>
+        <!-- <img src="<?php /*echo $image->url()*/ ?>" alt=""> -->
         <img src="<?php echo $image->resize(800)->url() ?>" alt="<?php echo $project->title()->html() ?>">
-        <?php endif ?>
+        <?php endforeach ?>
+
       </div>
     </div><!-- /.grid -->
 
@@ -46,3 +59,5 @@
 </div>
 
 <?php endforeach ?>
+
+</div>

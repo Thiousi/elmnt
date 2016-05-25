@@ -1,0 +1,13 @@
+Title: Wireframes
+
+----
+
+Group: design
+
+----
+
+Text:
+
+### Wireframes
+
+Wireframe fidelity should be determined by the process and the audience. Sketches are great for ideas &amp; big-picture problem solving. I build more detailed, pre-design wireframes in anything from Adobe Illustrator or Sketch, to web apps such as Balsamiq or moqups.
