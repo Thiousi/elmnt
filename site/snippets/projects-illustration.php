@@ -19,9 +19,11 @@
 <div class="wrap">
 
     <div class="grid">
+
     <h3>Peeking Press&trade;</h3>
     <p style="width:100%;max-width:700px;">These are a few samples from a children's book I'm writing &amp; illustrating, called <em>Animal Alphabet</em>. The page copy has been removed, in these samples, to highlight the illustrations.</p>
     <p style="font-size:.75rem;color:#999;">All images &copy; Peeking Press LLC / All Rights Reserved.</p>
+
       <div class="counter"> 
         <?php foreach($page->find('pp')->images()->sortBy('sort', 'asc') as $image): ?>
           <div class="two">
@@ -32,7 +34,10 @@
     </div><!-- /.grid -->
 
     <div class="grid">
+
       <h3>Miscellaneous</h3>
+      <p style="width:100%;max-width:700px;"><strong>Disclaimer:</strong> My illustration for <em>The New Yorker</em> was an entry in a Eustace Tilley Contest, and was not chosen for print.</p>
+
       <div class="cf" id="mfhr">
         <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
           <div class="mosaicflow__item">

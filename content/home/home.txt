@@ -5,9 +5,11 @@ Title: Hello
 Hellotext:
 
 #Greg Smith
-####Creative Director / Designer / Illustrator
+**UI Design / Front-End Development / Illustration**
 
-Hello. I'm a designer &amp; illustrator. I've been building websites for 15 years. I'm the Creative Director at a small, friendly (link: http://www.buildingonline.net target: blank text: agency) in Southern California. I solve problems for my clients, and I design and build interfaces for screens of all sizes. Thanks for stopping by.
+Hello. I'm a **Designer** and **Front-End Developer**. I've been designing &amp; building on the web for 15 years. I'm the **Creative Director** at a small, friendly (link: http://www.buildingonline.net target: blank text: agency) in Southern California. 
 
-(link: /info text: *More info &amp; Colophon*)
+I work with clients every day to deliver their message to their target audience in a modern, responsive, device-agnostic experience.
+
+(link: /info text: *More info*)&nbsp;&nbsp;|&nbsp;&nbsp;(link: /resume text: *Resume*)
 
