@@ -5,7 +5,7 @@ Title: Hello
 Hellotext:
 
 #Greg Smith
-**UI Design / Front-End Development / Illustration**
+**UX/UI Design / Front-End Development / Illustration**
 
 Hello. I'm a **Designer** and **Front-End Developer**. I've been designing &amp; building on the web for 15 years. I'm the **Creative Director** at a small, friendly (link: http://www.buildingonline.net target: blank text: agency) in Southern California. 
 
