@@ -5,9 +5,11 @@
   <footer class="footer center-content cf" role="contentinfo">
 
     <div class="grid footer-fa-icons">
-      <a href="https://twitter.com/elmnt" target="_blank"><i class="fa fa-twitter fa-2x"></i></a><a href="https://github.com/elmnt" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-      <!--<a href="http://codepen.io/elmnt" target="_blank"><i class="fa fa-codepen fa-2x"></i></a>-->
-      <!-- <a href="https://dribbble.com/elmnt" target="_blank"><i class="fa fa-dribbble fa-2x"></i></a> -->
+      <a href="https://twitter.com/elmnt" target="_blank"><i class="fa fa-twitter fa-2x"></i></a><a href="https://github.com/elmnt" target="_blank"><i class="fa fa-github fa-2x"></i></a><a href="https://www.linkedin.com/in/elmnt" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+      <!--
+      <a href="http://codepen.io/elmnt" target="_blank"><i class="fa fa-codepen fa-2x"></i></a>
+      <a href="https://dribbble.com/elmnt" target="_blank"><i class="fa fa-dribbble fa-2x"></i></a>
+      -->
     </div>
 
     <div class="copyright colophon">
