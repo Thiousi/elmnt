@@ -88,6 +88,7 @@ a { text-decoration: none; }
     <p class="resume__links"><a href="/assets/pdf/greg-smith-resume.pdf" target="_blank">View/Download PDF</a></p>
 
     <h3 style="margin-bottom:.25rem;">Greg Smith</h3>
+    <h6>UI Designer, Front-End Developer and Illustrator</h6>
     <p class="resume__contact"><a href="http://elmnt.com">elmnt.com</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><br><a href="mailto:greg@elmnt.com">greg@elmnt.com</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><br><a href="tel:9492578520">949-257-8520</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><br>Portland, OR</p>
 
   </div><!-- /.grid -->
