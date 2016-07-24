@@ -12,7 +12,7 @@ Menu: Info
 
 Text:
 
-I'm an art director and UX/UI designer with extensive front-end skills, complemented by a background in journalism, illustration and fine art. I have more than 15 years of experience. I'm currently the Creative Director at a small, friendly (link: http://www.buildingonline.net target: blank text: agency) in Southern California.
+Hello. I'm Greg Smith. I'm an art director and UX/UI designer with extensive front-end skills, complemented by a background in journalism, illustration and fine art. I have more than 15 years of experience. I'm currently the Creative Director at a small, friendly (link: http://www.buildingonline.net target: blank text: agency) in Southern California.
 
 I have a bachelor's degree in journalism from SDSU. I studied illustration and design at The Art Institute of Southern California, now called (link: http://www.lcad.edu text: The Laguna College of Art &amp; Design).
 
