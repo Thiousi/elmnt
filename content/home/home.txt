@@ -6,7 +6,7 @@ Hellotext:
 
 #Greg Smith
 
-I'm a designer with more than 15 years of experience. I'm an art director and UX/UI designer with extensive front-end skills, complemented by a background in journalism, illustration and fine art. I'm currently the Creative Director at a small, friendly (link: http://www.buildingonline.net target: blank text: agency) in Southern California. 
+I'm an art director and UX/UI designer with extensive front-end skills, complemented by a background in journalism, illustration and fine art. I have more than 15 years of experience. I'm currently the Creative Director at a small, friendly (link: http://www.buildingonline.net target: blank text: agency) in Southern California. 
 
 I work with clients every day to deliver their message to their target audience in a modern, responsive, device-agnostic experience.
 
