@@ -56,6 +56,14 @@
 // definition list
 // horizontal rule
 
+h5 span {
+  color: $base-text-color;
+}
+
+.resume__content h5 {
+  margin-top: 1.5rem;
+}
+
 /* Modules
 ------------------------------------------------------- */
 

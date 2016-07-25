@@ -6,48 +6,29 @@ Text_one:
 
 ### Work Experience
 
-**BuildingOnline Inc., Dana Point, CA &mdash; 2004 - present**
+##### <span>BuildingOnline &bull;</span> Creative Director
+_2004 &mdash; present_
 
-##### Creative Director
-- Created and implemented a phase-based project process for all work
-- Mentor a team to maintain design and front-end development standards
-- Communicate with clients to establish project goals, priorities and deadlines
-- Define project scope and prioritize deliverables with team members
-- Design and build custom front-end frameworks
-- Design and build custom Wordpress themes
-- Responsible, on all projects, for some or all: brand development, project management, information architecture, creative/art direction, user interface design, front-end development
-- Present work to clients through all project phases
+BuildingOnline has been the leading web agency in the building products industry for more than 20 years. I lead my team through all phases of design and front-end development. I maintain our design and front-end standards and practices, as well as our project process. I communicate with clients to establish project goals, project scope, priorities and deadlines. I present and sell work through all project phases.
 
-**Clients include:** Grohe, Henkel, James Hardie, Lasko, Loctite Products, OSI, Penofin, Woodway  
+**Clients include:** Anthony Forest Products, AWCI, EIMA, Grohe, GS Mfg., Henkel, HGTV, James Hardie, Lasko, Loctite, MiTek Builder Products, OSI, Penofin, USP, Woodway
 
-&nbsp;
-**Freelance &mdash; 2005 - present**
+##### <span>Element Creative &bull;</span> Freelance Designer
+_2005 &mdash; present_
 
-##### Designer / Front-end Developer
-Over the years, I've taken on various interactive design projects, in addition to my full-time agency work, serving clients in various fields.
+Over the years, I've taken on various interactive design projects, in addition to my full-time agency work, serving clients in various fields. 
 
-**Clients include:** CARROTS Boutique, Coca Cola, Drive Graphics, Elum Designs, Fuller Ingredients, iDONATEpro, Kindle Design, Lako Tool &amp; Manufacturing, Laz Parking Service, Pereira &amp; O'dell 
+**Clients include:** CARROTS Boutique, Coca Cola, Drive Graphics, Elum Designs, Fuller Ingredients, iDONATEpro, Kindle Design, Lako Tool &amp; Manufacturing, Laz Parking Service, Pereira &amp; O'dell.
 
-&nbsp;
-**BuildingOnline Inc., Dana Point, CA &mdash; 2002 - 2004**
+##### <span>BuildingOnline &bull;</span> Designer
+_2002 &mdash; 2004_
 
-##### Designer
-- Helped plan and schedule projects
-- Communicated with clients to establish project goals, priorities and deadlines
-- Defined project scope and prioritized deliverables with team members
-- Responsible, on all projects, for some or all: brand development, project management, information architecture, creative direction, user interface design, front-end development
-- Presented work to clients through all project phases
+Upon joining BuildingOnline, I introduced and implemented a phase-based project process for all client work that allowed for more focus on user experience and content definition. Shortly thereafter, I took on a leadership role in my team and I affected our transformation from a technology resource into a full-service design agency.
 
-&nbsp;
-**MusicZone, Taipei, Taiwan &mdash; 1999 - 2000**
-An online music portal serving the Greater China consumer market, funded by China.com and PSI Net.
+##### <span>MusicZone &bull;</span> Designer, Editor
+_1999 &mdash; 2000_
 
-##### Designer / Editor
-- Branding
-- Marketing design
-- User interface design
-- User demographic research
-- Copywriting &amp; editing
+MusicZone was a music portal based in Taipei, serving the Greater China consumer market, funded by China.com and PSI Net. I worked on the design team to provide support for: branding, marketing design, UI design. I was responsible for English language copywriting &amp; editing.
 
 ###Education
 
@@ -59,7 +40,7 @@ San Diego State University &mdash; San Diego, CA, 1998
 
 ###Skills
 
-Strong leadership, presentation, and communication skills; comfortable in client-facing roles; comfortable selling design &amp; justifying design decisions; aggressive problem solver; patient and considerate under pressure; information architecture; creative/art direction; user interface design; front-end development
+Strong leadership, presentation, and communication skills; comfortable in client-facing roles; comfortable selling design &amp; justifying design decisions; aggressive problem solver; patient and considerate under pressure
 
 ----
 

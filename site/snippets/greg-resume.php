@@ -4,9 +4,6 @@ a { text-decoration: none; }
   font-size: 1rem;
   line-height: 1.25em;
 }
-.resume__contact br {
-  display: none;
-}
 .resume__content {
   margin-top: 0;
 }
@@ -67,14 +64,6 @@ a { text-decoration: none; }
   padding: 0;
   margin: 0;
 }
-@media all and (max-width: 600px){
-  .resume__contact br {
-    display: block;
-  }
-  .resume__contact span {
-    display: none;
-  }
-}
 </style>
 
 <div class="container resume__global">
@@ -88,14 +77,19 @@ a { text-decoration: none; }
     <p class="resume__links"><a href="/assets/pdf/greg-smith-resume.pdf" target="_blank">View/Download PDF</a></p>
 
     <h3 style="margin-bottom:.25rem;">Greg Smith</h3>
-    <h6>UI Designer, Front-End Developer and Illustrator</h6>
-    <p class="resume__contact"><a href="http://elmnt.com">elmnt.com</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><br><a href="mailto:greg@elmnt.com">greg@elmnt.com</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><br><a href="tel:9492578520">949-257-8520</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><br>Portland, OR</p>
+    <p>I'm a designer with more than 15 years of experience. I'm an art director, UX/UI designer with extensive front-end skills, complemented by a background in journalism, illustration and fine art.</p>
+    <p class="resume__contact">
+    <a href="http://elmnt.com">elmnt.com</a><br>
+    <a href="mailto:greg@elmnt.com">greg@elmnt.com</a><br>
+    <a href="tel:9492578520">949-257-8520</a>
+    </p>
 
   </div><!-- /.grid -->
 
   <div class="grid resume__content">
     <?php echo $page->text_one()->kirbytext() ?>
-
+    
+    <!--
     <h3 class="mb1">Technical Skills</h3>
 
     <h5 class="resume__skill-label">Adobe CC</h5>
@@ -113,20 +107,21 @@ a { text-decoration: none; }
       <div class="resume__skill-level skill--css"></div>
     </div>
 
-    <h5 class="resume__skill-label">SCSS Flavored Sass</h5>
+    <h5 class="resume__skill-label">Sass</h5>
     <div class="resume__skill">
       <div class="resume__skill-level skill--sass"></div>
     </div>
 
     <h5 class="resume__skill-label">JavaScript / jQuery</h5>
     <div class="resume__skill">
-    <div class="resume__skill-level skill--jquery"></div>
+      <div class="resume__skill-level skill--jquery"></div>
     </div>
 
     <h5 class="resume__skill-label">PHP</h5>
     <div class="resume__skill">
       <div class="resume__skill-level skill--php"></div>
     </div>
+    -->
 
     <?php echo $page->text_two()->kirbytext() ?>
   </div>
