@@ -169,7 +169,7 @@ $heading-letter-spacing: normal;
 $h1-line-height: 1.125em;
 
 $h1: 2.25rem;
-$h2: 1.75rem;
+$h2: 2rem;
 $h3: 1.5rem;
 $h4: 1.25rem;
 $h5: 1.125rem;
@@ -376,6 +376,13 @@ $rslides-caption-color: white;
 // ----------- partials.blog
 
 $blog-description-subtitle-color: lighten($theme-text-color, $theme-dark-light-amount);
+
+$bf-nav-font: $serif;
+$bf-nav-font-size: 1rem;
+$bf-nav-line-height: 1.35em;
+$bf-nav-font-weight: normal;
+$bf-nav-font-weight: 400;
+$bf-nav-letter-spacing: normal;
 
 /* Customizations
 ------------------------------------------------------- */

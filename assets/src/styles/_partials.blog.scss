@@ -51,7 +51,7 @@ http://sashtown.de/
 $blog-article-margin: 0;
 $blog-article-padding: 0;
 
-$blog-article-border: 5px solid $color-grey-e;
+$blog-article-border: 2px solid $color-grey-e;
 
 $blog-article-header-margin: 0 0 1rem 0;
 $blog-article-header-padding: 0;
@@ -84,6 +84,26 @@ article > footer .button {
 }
 article > footer .button--fa {
   margin-right: 10px;
+}
+
+.blog-intro-content {
+  margin-right: 0;
+}
+@media all and (max-width: 800px){
+  .blog-intro-mobile { display: none; }
+  .blog-intro-content {
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+  }
+}
+.blog-intro-mobile {
+  text-align: right;
+}
+.blog__typewriter {
+  margin-top: 14px;
+  max-width: 100px;
+  float: right;
 }
 
 // ----------- /settings for the main blog home page (feed)
@@ -125,6 +145,13 @@ article > footer .button--fa {
 .grid--blog .blog__content h4 {
   margin: 1.5rem 0;
   line-height: 1.5em;
+}
+
+.grid--blog .blog__content ul,
+.grid--blog .blog__content ol {
+  padding-left: 1.5rem;
+  // not sure why important is necessary here, 
+  // need to debug
 }
 
 // ----------- /settings for the single article pages
@@ -210,4 +237,29 @@ article > footer .button--fa {
 .blog__meta-tags a:active,
 .blog__meta-tags a:focus {
   text-decoration: none;
+}
+
+// ----------- blog footer nav
+
+.container--blog footer nav {
+  font-family: $bf-nav-font;
+  font-size: $bf-nav-font-size;
+  line-height: $bf-nav-line-height;
+  font-weight: normal;
+  font-weight: $bf-nav-font-weight;
+  letter-spacing: $bf-nav-letter-spacing;
+}
+
+.container--blog footer nav a,
+.container--blog footer nav a:visited {
+  color: $theme-link-color;
+  text-decoration: underline;
+  
+  &:hover,
+  &:active,
+  &:focus {
+    color: $theme-link-color-hover;
+    text-decoration: none;
+  }
+
 }

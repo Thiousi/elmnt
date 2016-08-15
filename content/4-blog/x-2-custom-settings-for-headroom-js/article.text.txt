@@ -1,0 +1,35 @@
+Title:
+
+Some Custom Settings for headroom.js
+
+----
+
+Description:
+
+How many callbacks does is take to change a widget?
+
+----
+
+Date:
+
+Monday, October 5, 2015
+
+----
+
+Tags:
+
+front-end-dev, jquery
+
+----
+
+Text:
+
+I'll state for the record that I'm a JavaScript novice. Like many designer-front-end-devs, I know just enough JS/jQuery to add some nice, dynamic interaction. Beyond that, I usually pass it up the chain to a developer, so I can focus on my piece of the puzzle, so we can get projects out the door. Standard.
+
+That being said, here's a fairly basic little customization I came up with for a recent implementation of the (link: http://wicky.nillia.ms/headroom.js/ text: headroom.js) plugin.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+
+(image: photo.jpg caption: Lorem ipsum dolor sit amet)
+
+Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut.

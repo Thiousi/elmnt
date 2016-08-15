@@ -11,11 +11,15 @@
   <div class="grid">
 
     <header>
+      
       <p class="blog__meta-date"><time datetime="<?php echo $page->date('c') ?>"><?php echo $page->date('F dS, Y'); ?></time></p>
+      
       <h1 class="blog__title"><?php echo html($page->title()) ?></h1>
+      
       <?php if(!$page->subtitle()->empty()): ?>
       <h2 class="blog__subtitle"><?php echo html($page->subtitle()); ?></h2>
       <?php endif ?>
+
     </header>
 
     <div class="blog__content cf">
@@ -38,6 +42,7 @@
     <?php endif ?>
 
     <footer>
+      <?php snippet('blog-pagination') ?>
       <?php snippet('blog-footer') ?>
     </footer>
 

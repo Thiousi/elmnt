@@ -1,0 +1,32 @@
+Title:
+
+A sample video post
+
+----
+
+Description:
+
+This could be an awesome video post.
+
+----
+
+Date:
+
+08/07/2014
+
+----
+
+Tags:
+
+media, nature
+
+----
+
+Text:
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+(vimeo: http://vimeo.com/35396305)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+

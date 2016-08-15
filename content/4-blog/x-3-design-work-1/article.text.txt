@@ -1,0 +1,76 @@
+Title:
+
+Working with Designers
+
+----
+
+Subtitle:
+
+Series Introduction
+
+----
+
+<!-- is this part of the Working with Designers series -->
+dwork: yes
+
+----
+
+Description:
+
+A series about designer-client relationships.
+
+----
+
+Date:
+
+July 27, 2015
+
+----
+
+Tags:
+
+working-with-designers
+
+----
+
+Excerpt:
+
+I'm a designer. I've been working with clients for about 15 years. I've worked on great projects, and I've worked on horrible projects. The great ones all have very specific things in common. Same with the horrible ones. 
+
+The title of this series implies information mostly for clients. That's half of my intention. To be a successful designer, you need the ability to think like a client.
+
+I want to talk about those specific things, how they happen, why they happen, and how you, as a designer, can get the best out of every client relationship.
+
+This is just my experience and my opinion. I look in the mirror when I talk about these things. I don't always succeed at every one of them, but I keep trying.
+
+<!-- inspiration:
+I'll try not to quote (link: http://abookapart.com/products/design-is-a-job text: Mike target: _blank) (link: http://abookapart.com/products/youre-my-favorite-client text: Monteiro target: _blank) in every post in this series, but those books are great resources.
+-->
+
+<!--
+The title implies the message here is exclusively for clients. How to work with those flaky, late-sleeping, egotistical, etc., etc. That's not my intention. I want to talk about why and how you, as a designer, might be selling yourself short and missing the most important aspet of the designer-client relationship: control. You're in control. You need to be in control. You need to take control. The project process is up to you, NOT the client. Always start there. In my experience, designers withhold uncomfortable information in this relationship, 
+-->
+
+Coming up,  (link: /blog/design-communication-2 text: *PART 1: It's not me. It's you.*)
+
+We'll talk about why professional relationships with designers seem to be more difficult and murky than those with dentists or lawyers, for instance.
+
+<!--
+In my opinion, design is not an ethereal talent. It's a learned craft. It's a definable set of skills. Okay. Let's get started.
+-->
+
+----
+
+readmore: no
+<!-- set this to 'no' to leave off the 'read more' link -->
+
+----
+
+Text:
+
+I'll try not to quote (link: http://abookapart.com/products/design-is-a-job text: Mike target: _blank) (link: http://abookapart.com/products/youre-my-favorite-client text: Monteiro target: _blank) in every post in this series, but those books are great resources. I'm a designer. I've been working with clients for about 15 years, so hopefully I'll offer some useful information.
+
+Coming up,  (link: /blog/design-communication-2 text: *Part 1: It's not me; It's you.*)
+
+We'll talk about why professional relationships with designers seem to be more difficult and murky than those with dentists or lawyers, for instance.
+

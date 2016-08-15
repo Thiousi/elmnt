@@ -1,0 +1,55 @@
+Date:
+
+Tuesday, August 9, 2016
+
+----
+
+Title:
+
+Building Hadley
+
+----
+
+Description:
+
+Step 2: Project goals and constraints
+
+----
+
+Intro:
+
+Hadley is a WordPress theme for writers. I'm sharing my process as I design &amp; develop, and I'll talk about some of the decisions I'm making along the way.
+
+----
+
+Text:
+
+(image: hadley.png alt: A WordPress Theme for Writers)
+
+Step 1: Define the target audience
+**Step 2: Project goals and constraints**
+Step 3: Theme UX/UI
+Step 4: Local dev environment / Git workflow
+Step 5: User testing / feedback
+Step 6: Hadley documentation (user guides and helpful tips)
+Step 7: Ship
+
+## Step 2: Project goals and constraints
+
+#### Hadley will be a FREE WordPress theme.
+
+Hadley is a small side project I'm using to improve my WordPress theme development skills. Since I won't make any revenue, I can't offer post-install support, other than bug-fixes. I think this is justifiable for any open source project. What you see is what you get, with exceptions limited to time, availability and necessity.
+
+I also believe that to contribute positively to the open source community, support in the way of up-front documentation and information is a professional responsibility. When Hadley is launched, I plan to have an extensive documentation page explaining who it's for &amp; how it works, and offering some best-practices for use.
+
+#### Constraints are good for design.
+
+Most WordPress themes have an everything-for-everyone level of flexibility. It's one of the reasons WordPress runs so much of the internet. I have more interest in choosing a specific use case, and building a theme to suit that user. I will, of course, design and develop Hadley to fit the WordPress plug &amp; play environment. If you're not a writer, you might still like this theme for your personal site. I have to meet that basic requirement for it to qualify as a usable WordPress theme. 
+
+But if you're not whom I'm defining in my (link: /blog/building-hadley-1 text: target audience), it's probably not the best theme for you. This constraint will allow me to build a shippable theme in a reasonable time-frame that is of more value to its target audience than, perhaps, another generic one-size-fits-all theme.
+
+----
+
+Tags:
+
+design, development, wordpress

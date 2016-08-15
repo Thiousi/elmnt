@@ -1,27 +1,14 @@
 <?php snippet('top') ?>
 <?php snippet('header') ?>
 
-<style>
-.blog-intro-content {
-  margin-right: 0;
-}
-@media all and (max-width: 800px){
-  .blog-intro-mobile { display: none; }
-  .blog-intro-content {
-    display: block !important;
-    float: none !important;
-    width: 100% !important;
-  }
-}
-</style>
-
 <div class="container">
 <div class="wrap">
 
-  <article style="border-bottom:5px solid #eee;">
+  <article style="border-bottom:2px solid #eee;">
     <div class="grid">
       <div class="col-1-3 blog-intro-mobile">
         <p>&nbsp;</p>
+        <!--<img align="left" src="/assets/images/typewriter.svg" onerror="this.src='/assets/images/typewriter.png'; this.onerror=null;" class="blog__typewriter">-->
       </div>
       <div class="col-2-3 blog-intro-content">
         <h3 class="mt0">Thoughts &amp; ideas about design, illustration, and making stuff for the web</h3>
