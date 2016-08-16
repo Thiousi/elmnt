@@ -22,12 +22,6 @@ design, css
 
 ----
 
-Excerpt:
-
-We spend a lot of time loving & hating things in the web design/development community. There's a lot of hyperbole. Something is the new best for a short while, until the new new best makes it the new worst.
-
-----
-
 Intro:
 
 We spend a lot of time loving & hating things in the web design/development community. There's a lot of hyperbole. Something is the new best for a short while, until the new new best makes it the new worst.
