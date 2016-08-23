@@ -22,6 +22,7 @@ config.codekit
 
 # inactive content
 /content/x-*
+/content/4-blog/x-*
 #/content/resume
 #/site/snippets/greg-resume.php
 #/content/contract

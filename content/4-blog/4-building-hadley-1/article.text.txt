@@ -1,0 +1,49 @@
+Date:
+
+Monday, August 8, 2016
+
+----
+
+Title:
+
+Building Hadley
+
+----
+
+Description:
+
+Step 1: Define the target audience
+
+----
+
+Intro:
+
+Hadley is a WordPress theme for writers. I'm sharing my process as I design &amp; develop, and I'll talk about some of the decisions I'm making along the way.
+
+----
+
+Text:
+
+(image: hadley.png alt: A WordPress Theme for Writers)
+
+**Step 1: Define the target audience**
+Step 2: Project goals and constraints
+Step 3: Theme UX/UI
+Step 4: Local dev environment / Git workflow
+Step 5: User testing / feedback
+Step 6: Hadley documentation (user guides and helpful tips)
+Step 7: Ship
+
+## Step 1: Define the target audience
+
+My wife is a writer. She recently completed her MFA, and she is working on her first book. Spending time with her and her classmates / fellow graduates, I saw an opportunity to create a WordPress theme tailored specifically to the needs of writers. Obviously "writers" is a broad term at a time when anyone can publish and curate content online with the numerous tools available.
+
+To better define my target audience for the purpose of this project, I'm defining "writer" as one currently publishing books and/or articles for a living, or one aspiring to do so. As general as it sounds, this definition helps me set my target audience apart from the average person who writes, about any topic, primarily online. I'm not trying to discount the latter category. I'm a part of that segment. 
+
+My goal is to set very specific constraints that will apply to my design and development of Hadley. WordPress themes need to have a lot of generalist characteristics, but this will help me make some more specific decisions along the way.
+
+----
+
+Tags:
+
+design, development, wordpress
