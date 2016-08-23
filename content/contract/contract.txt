@@ -5,6 +5,7 @@ Title: Contract
 Text:
 
 ### Disclaimer:
+
 I use a customized version of the [Contract Killer](https://gist.github.com/malarkey/4031110), "the popular open-source contract for web professionals by [Stuff & Nonsense](https://stuffandnonsense.co.uk/)," for all my freelance projects. If we work together, our contract will be tailored to our specific needs, and will of course be private and confidential. I keep this public version of the **Contract Killer** online to set clear and simple expectations before we get started.
 
 If you have a legal document that you normally use with contractors, I'm happy to review it with my legal counsel, and, if we all agree, I will do my best to create a modified version of my binding contact that makes everyone happy.

@@ -14,9 +14,8 @@
 
   <?php snippet('projects-illustration') ?>
 
-<?php elseif( $page->id() == "contract" || $page->id() == "basecamp" ): ?>
-
-  <?php snippet('greg-inside') ?>
+<?php /*elseif( $page->id() == "contract" || $page->id() == "basecamp" ):*/ ?>
+<?php /*snippet('greg-inside')*/ ?>
 
 <?php elseif( $page->id() == "resume" ): ?>
 
