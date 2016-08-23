@@ -28,7 +28,7 @@ Intro:
 
 Text:
 
-There are (at least) two simple truths about charging higher rates for any service:
+There are (at least) three simple truths about charging higher rates for any service:
 
 1. It takes time to get your rates up.
 2. You have to work harder (read: smarter) than people charging less.
