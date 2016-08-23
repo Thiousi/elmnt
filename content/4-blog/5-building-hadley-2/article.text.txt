@@ -44,7 +44,7 @@ I also believe that to contribute positively to the open source community, suppo
 
 #### Constraints are good for design
 
-Most WordPress themes have an everything-for-everyone level of flexibility. It's one of the reasons WordPress runs so much of the internet. I have more interest in choosing a specific use case, and building a theme to suit that user. I will, of course, design and develop Hadley to fit the WordPress plug &amp; play environment. If you're not a writer, you might still like this theme for your personal site. I have to meet that basic requirement for it to qualify as a usable WordPress theme. 
+Most WordPress themes have an everything-for-everyone level of flexibility. It's one of the reasons WordPress runs so much of the internet. I have more interest in choosing a specific use-case, and building a theme to suit that user. I will, of course, design and develop Hadley to fit the WordPress plug &amp; play environment. If you're not a writer, you might still like this theme for your personal site. I have to meet that basic requirement for it to qualify as a usable WordPress theme. 
 
 But if you're not whom I'm defining in my (link: /blog/building-hadley-1 text: target audience), it's probably not the best theme for you. This constraint will allow me to build a shippable theme in a reasonable time-frame that is of more value to its target audience than, perhaps, another generic one-size-fits-all theme.
 
