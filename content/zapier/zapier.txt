@@ -1,0 +1,105 @@
+Title: Hello Zapier!
+
+----
+
+Text:
+
+### Greg Smith would be happier at Zapier :)
+
+Whoops, I just stole your tagline. Okay. But "great artists steal," right?
+
+I humbly submit my application for the position of:
+###### Product Designer - Growth
+
+### 1. I'd be a great fit for this role
+
+I'm a designer, illustrator and front-end developer with more than 15 years of experience solving problems for my clients. I've been working with and leading a remote team for nearly 10 years.
+
+I'm currently the Creative Director for a digital agency in Southern California. We're a small team, so I wear many hats. I'm involved in research &amp; strategy, UX/wireframing, art direction, UI design, and front-end development. I'm responsible for presenting and selling work to our clients in every phase.
+
+I've been using tools like Photoshop &amp; Illustrator for UI design for years, and lately I'm having fun with Sketch. But I also enjoy designing and iterating a UI right in the browser with HTML, CSS, and JavaScript/jQuery. I've also gained a strong working knowledge of PHP from building WordPress themes.
+
+### 2. Work Samples / Online Profiles
+
+The (link: http://elmnt.com/design text: Design) section of my site features some recent client work, each with a link to the live project.
+
+(link: https://github.com/elmnt text: My GitHub profile)
+(link: https://www.linkedin.com/in/elmnt text: My Linkedin profile)
+(link: https://twitter.com/elmnt text: My twitter feed)
+
+(link: http://elmnt.com/resume text: My resume page) (with a PDF version available)
+
+### 3. Featured Project
+
+###### Woodway Products
+
+This was a redesign for an existing agency client. The three most important requirements in the brief:
+
+1. Increase revenue! Incorporate a shopping cart that will allow users to:
+    a) Purchase online
+    b) Create a printable quote to carry to a certified dealer
+2. Pull all product info from a database, and attach a custom CMS allowing client to add/remove products.
+
+The client's previous site did not have ecommerce. Managing a dynamic presentation of their product content, funneling the user into a shopping cart option, was the key to increasing sales. While I don't have access to my client's financial data to offer specific metrics, we have solicited and received specific feedback indicating that the tools we've provided have a been a boost to sales.
+
+My team worked with two key stakeholders in the LWO Corporation in Portland, Oregon (owners of the Woodway brand). We were given their old (non-responsive) site and some newer print collateral as content sources. After our initial research and discovery phases, I built wireframes to define the UX for the product selection process (samples below). These wireframes were built in Adobe Illustrator. I'm also a big fan of web apps such as moqups for lower fidelity wireframing.
+
+The wireframe samples below show, respectively:
+1. Home page
+2. Product Super-Category
+3. Product Category
+4. Product page with feature &amp; option selection
+
+Upon product feature &amp; option selection, the user is then prompted to purchase or "add to quote."
+
+I've also included some initial home page &amp; product page UI comps that show a few proposed color schemes. I chose this project, as it was a good example of working out the UX challenges with our client, and carrying them over into some UI options. 
+
+Lately, with the challenges of multi-device UI design, we find that managing the UX and design process is sometimes more successful when done right in the browser. I've completed several exclusively "in-browser" design projects in the past couple years.
+
+<div class="woodway__samples">
+(image: woodway-wf-01.png alt: Woodway Products - Wireframe 01)
+(image: woodway-wf-02.png alt: Woodway Products - Wireframe 02)
+(image: woodway-wf-03.png alt: Woodway Products - Wireframe 03)
+(image: woodway-wf-04.png alt: Woodway Products - Wireframe 04)
+
+(image: woodway-design-home-01.png alt: Woodway Products - Design 01)
+(image: woodway-design-home-02.png alt: Woodway Products - Design 02)
+(image: woodway-design-home-03.png alt: Woodway Products - Design 03)
+(image: woodway-design-product-01.png alt: Woodway Products - Design 03)
+(image: woodway-design-product-02.png alt: Woodway Products - Design 04)
+</div>
+
+### 4. 50 Things
+
+###### 10 things that most excite me:
+
+1. Create high-fidelity mocks of new UI for the product
+2. Run a design team (say, 10 designers)
+3. Implement a design in HTML
+4. Implement a design in CSS, SASS, or LESS
+5. Evaluate and iterate existing UI with respect to it's goals
+6. Write JavaScript to implement part of your design
+7. Work on character design to develop default avatars and a brand mascot
+8. Authoritatively write about your design process
+9. Do design reviews with teammates
+10. Be a public advocate about Zapier design (speaking gigs, conferences, etc)
+
+###### 10 things that least excite me:
+
+1. Do print design for t-shirts, notebooks, one-sheets, other swag, etc.
+2. Design the Zapier logotype and logomark
+3. Create a design spec for a new product
+4. Concept and implement ongoing, impactful multi-variate tests
+5. Copywriting and editing for marketing copy
+6. Own the Zapier brand
+7. Design company slides
+8. Find qualified leads for user testing.
+9. Decide core KPIs for design and projects at Zapier
+10. Recruit and source design candidate leads for hiring
+
+### In Conclusion
+
+It would be a remote worker's dream to work with the kind of team you've represented at Zapier. I welcome the opportunity to speak with you further about this position, or any position you think I would suitably fill on your team. Thank you very much for your time and consideration!
+
+Cordially,
+Greg Smith
